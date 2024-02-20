@@ -1,0 +1,41 @@
+version: '3.8'
+services:
+
+  bacssaas_boptest:
+    container_name: bacssaas_boptest
+    image: bacssaas/boptest:latest
+    build:
+      context: ./boptest
+      args:
+        - testcase=testcase_ZEBLL
+    environment:
+      - TEST_CASE=testcase_ZEBLL
+    ports:
+      - 127.0.0.1:5001:5000
+    volumes:
+      - $PWD/../python/boptest:/home/$USER:rw
+    hostname : bacssaas_boptest
+    restart: unless-stopped
+
+  bacssaas_mosiop:
+    container_name: bacssaas_mosiop
+    image: bacssaas/mosiop:latest
+    build:
+      context: ./mosiop
+      args:
+        - USER_NAME=$USER
+    stdin_open: true
+    tty: true
+    volumes:
+       - /tmp/.X11-unix:/tmp/.X11-unix
+       - $PWD/../python/sysid:/home/$USER:rw
+    environment:
+      - DISPLAY=$DISPLAY 
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    hostname : bacssaas_moisop
+    privileged: true
+    restart: unless-stopped
+
+

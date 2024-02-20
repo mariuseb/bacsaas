@@ -1,0 +1,61 @@
+description;description_short;measurement_category;unit;subtypes
+Time stamp in local UTC time;TimeStamp;Time;Time;
+Temperature Outdoor;Tout;Weather variable;C;
+Global Solar Horizontal Radiation;SolGlob;Weather variable;W/m2;
+Direct Normal Radiation;SolDir;Weather variable;W/m2;
+Diffuse Solar Radiation;SolDiff;Weather variable;W/m2;
+Wind_speed;WindSpd;Weather variable;m/s;
+Wind_dir;WindDir;Weather variable;deg;
+Relative Humidity;RH;Weather variable;%;
+Temperature Indoor (average);Ti;Temperature;C;
+Temperature Indoor 1;Ti_1;Temperature;C;
+Temperature Indoor 2;Ti_2;Temperature;C;
+Temperature Indoor 3;Ti_3;Temperature;C;
+Temperature Indoor 4;Ti_4;Temperature;C;
+Temperature Indoor 5;Ti_5;Temperature;C;
+Electricity production from PV;ElPV;Electricity production;Wh;
+Heat produced from Oil;HtOil;Heat production;Wh;
+Solar collector heat produced;HtSC;Heat production;Wh;
+Charging of battery;ElBatChg;Electricity use;Wh;
+Discharging of battery;ElBatDis;Electricity use;Wh;
+Electricity imported ;ElImp;Electricity import;Wh;
+Electricity exported;ElExp;Electricity use;Wh;
+Electricity Total without heating = ElLight + ElPlug + ElFan + ElAux + ElOth;ElTot;Electricity use;Wh;ElLight, ElPlug, ElFanPump, ElAux, ElOth
+Electricity for cooling;ElCool;Electricity use;Wh;ElClcomf, ElClTech
+Electricity lighting;ElLight;Electricity use;Wh;
+Electricity outdoor heating;ElLightOut;Electricity use;Wh;
+Electricity plug loads;ElPlug;Electricity use;Wh;
+Electricty ventilation fans;ElFanPump;Electricity use;Wh;ElFan, ElPump
+Electricty ventilation fans;ElFan;Electricity use;Wh;
+Electricity auxiliaries;ElAux;Electricity use;Wh;
+Electricity other;ElOth;Electricity use;Wh;
+Electricity for mixed purposes (heating and other);ElMix;Electricity use;Wh;
+Electricity for heating and dhw;ElHt;Electricity use;Wh;
+Electricity for other space heating;ElSpace;Electricity use;Wh;
+Electricity for electric boiler;ElBoil;Electricity use;Wh;
+Heat pump;ElHP;Electricity use;Wh;
+Electricity for technical room/server room;ElTech;Electricity use;Wh;
+Electricity for snow melt;ElSnow;Electricity use;Wh;
+Electricity for comfort cooling;ElClComf;Electricity use;Wh;
+Electricity for technical cooling;ElClTech;Electricity use;Wh;
+Electricity for cooling;ElClTot;Electricity use;Wh;ElClcomf, ElClTech
+Electricity for hot water heater;ElHWH;Electricity use;Wh;
+Electricity for DHW production and heat tracing;ElDHW;Electricity use;Wh;
+Electricity for charging of electric vehicles;ElEV;Electricity use;Wh;
+Electricity for ventilation of pool area;ElVentPool;Electricity use;Wh;
+Electricity use for pumps;ElPump;Electricity use;Wh;
+Heat for pool heating;HtPool;Heat use;Wh;
+Imported District Heating;HtDH;Heat import;Wh;
+Heat Total = HtSpace + HtDHW;HtTot;Heat use;Wh;HtSpace, HtDHW
+Space heating = HtRoom + HtVent;HtSpace;Heat use;Wh;HtRoom, HtVent
+Room heating;HtRoom;Heat use;Wh;
+Ventilation heating battery;HtVent;Heat use;Wh;
+Domestic Hot Water;HtDHW;Heat use;Wh;
+Heat from heat pumps;HtHP;Heat production;Wh;
+Snow melting;HtSnow;Heat use;Wh;
+Cool Total = ClComf + ClTech;ClTot;Cool use;Wh;ClComf, ClTech
+Comfort cooling;ClComf;Cool use;Wh;
+Technical cooling;ClTech;Cool use;Wh;
+Volume flow;DHVF;District Heating;m3/h;
+Supply temperature;DHTs;District Heating;C;
+Return temperature;DHTr;District Heating;C;

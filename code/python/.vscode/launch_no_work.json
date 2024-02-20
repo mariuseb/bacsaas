@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+"version": "0.2.0",
+"configurations": [
+    {
+        "name": "Python C++ Debug",
+        "type": "pythoncpp",
+        "request": "launch",
+        "pythonLaunchName": "Python: Current File",
+        "cppConfig": "default (gdb) Attach"
+    },
+    {
+        "name": "Python: Current File",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+	"cwd": "${workspaceRoot}",
+        "env": {
+            "LD_LIBRARY_PATH": "/path/to/lib1:/path/to/lib2",
+            "PYTHONPATH": "/usr/local:${workspaceFolder}/"
+         }
+    }
+]

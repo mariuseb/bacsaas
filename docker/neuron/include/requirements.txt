@@ -1,0 +1,11 @@
+psycopg2-binary
+aiohttp
+asyncio
+SQLAlchemy
+OMPython
+lxml
+autopep8
+pandas
+numpy
+scipy
+matplotlib

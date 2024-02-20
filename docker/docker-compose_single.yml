@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+
+services:
+  bacssaas_mosiop:
+    container_name: bacssaas_mosiop
+    image: bacssaas/mosiop:latest
+    build:
+      context: ./mosiop
+      args:
+        - USER_NAME=$USER
+    stdin_open: true
+    tty: true
+    volumes:
+       - /tmp/.X11-unix:/tmp/.X11-unix
+       - $PWD/../code:/home/$USER:rw
+    environment:
+      - DISPLAY=$DISPLAY 
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    hostname : bacssaas_moisop
+    privileged: true
+    restart: unless-stopped
+    deploy:
+       resources:
+           limits:
+               memory: 16G
+

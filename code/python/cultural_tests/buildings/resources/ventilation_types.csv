@@ -1,0 +1,8 @@
+description;description_short;description_norwegian
+Demand controlled ventilation;DCV;Behovsstyrt ventilasjon
+Constant Air Volume with Calender schedule;CAV_sch;Konstant luftmengde med kalenderstyring
+Constant Air Volume;CAV_fxd;Konstant luftmengde
+Mechanical extract;Mech;Mekanisk avtrekk
+Natural ventilation;Nat;Naturlig ventilasjon
+Unknown;Ukn;Ukjent
+None;None;Ingen

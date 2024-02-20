@@ -1,0 +1,1 @@
+TESTCASE=singlezone_commercial_hydronic docker-compose up

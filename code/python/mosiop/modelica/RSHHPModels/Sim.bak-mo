@@ -1,0 +1,24 @@
+within RSHHPModels;
+model Sim
+  extends Modelica.Icons.Example;
+  FastBuildings.Zones.ZonWalEmb_B zonWalEmb_B
+    annotation (Placement(transformation(extent={{-50,-12},{-20,8}})));
+  inner FastBuildings.Input.SIM_Inputs simFasBui
+    annotation (Placement(transformation(extent={{-100,80},{-80,100}})));
+  ModHP heaPum "Modulating heat pump"
+    annotation (Placement(transformation(extent={{0,-12},{20,8}})));
+  Modelica.Blocks.Interfaces.RealInput y
+    annotation (Placement(transformation(extent={{-120,-80},{-80,-40}})));
+equation
+  connect(zonWalEmb_B.heaPorEmb, heaPum.heaPorEmb) annotation (Line(points={{-20,
+          1.99057},{-12,1.99057},{-12,1.99318},{0.017,1.99318}}, color={191,0,0}));
+  connect(zonWalEmb_B.heaPorCon, heaPum.heaPorCon) annotation (Line(points={{-20,
+          -2},{-10,-2},{-10,-1.99318},{0.017,-1.99318}}, color={191,0,0}));
+  connect(zonWalEmb_B.heaPorRad, heaPum.heaPorRad)
+    annotation (Line(points={{-20,-6},{-0.017,-6}}, color={191,0,0}));
+  connect(zonWalEmb_B.TZon, heaPum.TZon) annotation (Line(points={{-20,-10},{
+          -10,-10},{-10,-10.0341},{0.0422,-10.0341}},
+                                                  color={0,0,127}));
+  connect(y, heaPum.y) annotation (Line(points={{-100,-60},{40,-60},{40,
+          -10.0341},{20.0422,-10.0341}}, color={0,0,127}));
+end Sim;
