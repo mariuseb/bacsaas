@@ -1,0 +1,13 @@
+[submodule "code/python/ocp"]
+	path = code/python/ocp
+	url = git@github.com:mariuseb/ocp.git
+[submodule "code/python/project1_boptest_gym"]
+	path = code/python/project1_boptest_gym
+	url = git@github.com:mariuseb/project1_boptest_gym.git
+[submodule "code/cplusplus/ocp_cpp"]
+	path = code/cplusplus/ocp_cpp
+	url = git@github.com:mariuseb/ocp_cpp.git
+[submodule "docker/boptest"]
+	path = docker/boptest
+	url = git@github.com:mariuseb/project1-boptest.git
+	
