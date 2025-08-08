@@ -84,18 +84,22 @@ RUN sudo pip install --no-cache-dir -r ./mosiop/requirements.txt
 #RUN pip install --no-cache-dir torchvision --index-url https://download.pytorch.org/whl/cpu
 #RUN sudo pip3 install -e /opt/acados/interfaces/acados_template
 
-RUN sudo apt-get update -y
-RUN sudo apt-get install -y ca-certificates curl gnupg sudo
-RUN curl -fsSL http://build.openmodelica.org/apt/openmodelica.asc | \
-  sudo gpg --dearmor -o /usr/share/keyrings/openmodelica-keyring.gpg
+############################# OpenModelica ######################################
 
-RUN echo "deb [arch=amd64 signed-by=/usr/share/keyrings/openmodelica-keyring.gpg] \
-  https://build.openmodelica.org/apt \
-  jammy \
-  release" | sudo tee /etc/apt/sources.list.d/openmodelica.list
+#RUN sudo apt-get update -y
+#RUN sudo apt-get install -y ca-certificates curl gnupg sudo
+#RUN curl -fsSL http://build.openmodelica.org/apt/openmodelica.asc | \
+#  sudo gpg --dearmor -o /usr/share/keyrings/openmodelica-keyring.gpg
 
-RUN sudo apt update -y
-RUN sudo apt install -y openmodelica
+#RUN echo "deb [arch=amd64 signed-by=/usr/share/keyrings/openmodelica-keyring.gpg] \
+#  https://build.openmodelica.org/apt \
+#  jammy \
+#  release" | sudo tee /etc/apt/sources.list.d/openmodelica.list
+
+#RUN sudo apt update -y
+#RUN sudo apt install -y openmodelica
+
+##################################################################################
 
 # delete scs from cvxpy
 #RUN sudo rm -rf /usr/local/lib/python3.10/site-packages/scs && \
