@@ -136,6 +136,6 @@ ENV LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"
 ENV OMP_NUM_THREADS=1
 #ENV USER=om
 
-RUN echo -e '\n \e[1;34mInstallation complete\033[0m \n'
+#RUN echo -e '\n \e[1;34mInstallation complete\033[0m \n'
 
 
