@@ -12,3 +12,6 @@
 	path = code/python/ocp
 	url = git@github.com:mariuseb/ocp.git
 	branch = mhe_separation_work
+[submodule "docker/project1-boptest"]
+	path = docker/project1-boptest
+	url = git@github.com:mariuseb/project1-boptest.git
