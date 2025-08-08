@@ -1,9 +1,0 @@
-description;description_short;multiplier
-Celsius;C;10
-Watt hours;Wh;1
-Watt;W;1
-Specific power;W/m2;1
-Speed;m/s;10
-Angle;deg;1
-Percentage;%;10
-Volume flow;m3/h;1000
