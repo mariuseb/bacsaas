@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  bacssaas_boptest:
+    container_name: bacssaas_boptest
+    image: boptest_base
+    build:
+      context: ./boptest
+    volumes:
+      - ./boptest/testcases/${TESTCASE}/models/wrapped.fmu:${APP_PATH}/models/wrapped.fmu
+      - ./boptest/testcases/${TESTCASE}/doc/:${APP_PATH}/doc/
+      - ./boptest/restapi.py:${APP_PATH}/restapi.py
+      - ./boptest/testcase.py:${APP_PATH}/testcase.py
+      - ./boptest/version.txt:${APP_PATH}/version.txt
+      - ./boptest/data:${APP_PATH}/data/
+      - ./boptest/forecast:${APP_PATH}/forecast/
+      - ./boptest/kpis:${APP_PATH}/kpis/
+    env_file:
+      - boptest/.env
+    ports:
+      - 127.0.0.1:5001:5000
+    hostname : bacssaas_boptest
+    deploy:
+       resources:
+           limits:
+               memory: 4G
+
+  bacssaas_mosiop:
+    container_name: bacssaas_mosiop
+    image: bacssaas/mosiop:latest
+    build:
+      context: ./mosiop
+      args:
+        - USER_NAME=$USER
+    stdin_open: true
+    tty: true
+    volumes:
+       - /tmp/.X11-unix:/tmp/.X11-unix
+       - $PWD/../code:/home/$USER:rw
+    environment:
+      - DISPLAY=$DISPLAY 
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    hostname : bacssaas_moisop
+    privileged: true
+    restart: unless-stopped
+    deploy:
+       resources:
+           limits:
+               memory: 8G
+

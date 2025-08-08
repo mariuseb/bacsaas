@@ -1,10 +1,9 @@
 version: '3.8'
-services:
 
 services:
   bacssaas_mosiop:
     container_name: bacssaas_mosiop
-    image: bacssaas/mosiop:latest
+    image: bacssaas/mosiop:old
     build:
       context: ./mosiop
       args:

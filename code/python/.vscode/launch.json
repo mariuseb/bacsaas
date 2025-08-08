@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
     {
       "name": "Python C++ Debug",
       "type": "pythoncpp",
@@ -34,8 +35,8 @@
         "console": "integratedTerminal",
         "cwd": "${workspaceFolder}/${relativeFileDirname}",
         "env": {
-	        "PYTHONPATH": "${workspaceFolder}:/usr/local"
+	        "PYTHONPATH": "${workspaceFolder}:/usr/local:/home/marius/python/mpc_rl/src::/home/marius/python/casadi-nlp/src::/home/marius/python/qpth::::/home/marius/python/leap_c"
         }
-    }
+    },
   ]
 }

@@ -1,4 +1,5 @@
-FROM buildopt:core
+#FROM buildopt:core
+FROM mariusbagle/buildopt:core
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -10,18 +11,17 @@ ARG USER_NAME
 
 #RUN useradd -d /home/${USER_NAME} -m ${USER_NAME} && \
 #     chown -R ${USER_NAME} /home/${USER_NAME} && \
-#     adduser ${USER_NAME} sudo && \
+#RUN adduser ${USER_NAME} sudo && \
 #     echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
-RUN sudo apt-get update && sudo apt-get install -y \
+RUN sudo apt-get update && sudo apt-get install -y --fix-missing \
          python3-pyqt5 \
          curl \
-         pip \
          dvipng \
+         pip \
          texlive-latex-extra \
          texlive-fonts-recommended \
          cm-super \
-         r-base \
          nvidia-cuda-toolkit
 
 #RUN 73 | sudo apt-get install keyboard-configuration
@@ -60,19 +60,32 @@ ADD /include ./mosiop
 #################################################
     
 #RUN pip install --upgrade pip --no-cache-dir -r ./mosiop/requirements.txt
-#RUN which python
+RUN python --version
+#RUN sudo apt install --upgrade python3-setuptools
+RUN sudo apt install python3-setuptools
+#RUN sudo pip install setuptools
+#RUN sudo pip install --no-cache-dir -r ./mosiop/requirements.txt
+#RUN apt install --upgrade python3-setuptools
+#RUN sudo python3 -m pip install --upgrade setuptools
 RUN sudo pip install --no-cache-dir -r ./mosiop/requirements.txt
 # additional packages, a.t. cpu versions of torch:
-RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+#RUN pip install torch>=2.0 --no-cache-dir --index-url https://download.pytorch.org/whl/cpu
 #
 
 # for learning etc.:
 #RUN pip install l4casadi --no-build-isolation
-#RUN pip install --no-cache-dir torchvision --index-url https://download.pytorch.org/whl/cpu
-#RUN pip3 install -e /opt/acados/interfaces/acados_template
+# build l4casadi from source:
+#RUN sudo cp -r /usr/local/casadi /usr/local/lib/python3.10/site-packages/casadi
+#RUN git clone https://github.com/Tim-Salzmann/l4casadi.git && \
+#	cd l4casadi && \
+#	sudo pip install -r requirements_build.txt && \
+# 	sudo pip install . --no-build-isolation
 
-RUN sudo apt-get update
-RUN sudo apt-get install ca-certificates curl gnupg sudo
+#RUN pip install --no-cache-dir torchvision --index-url https://download.pytorch.org/whl/cpu
+#RUN sudo pip3 install -e /opt/acados/interfaces/acados_template
+
+RUN sudo apt-get update -y
+RUN sudo apt-get install -y ca-certificates curl gnupg sudo
 RUN curl -fsSL http://build.openmodelica.org/apt/openmodelica.asc | \
   sudo gpg --dearmor -o /usr/share/keyrings/openmodelica-keyring.gpg
 
@@ -81,7 +94,7 @@ RUN echo "deb [arch=amd64 signed-by=/usr/share/keyrings/openmodelica-keyring.gpg
   jammy \
   release" | sudo tee /etc/apt/sources.list.d/openmodelica.list
 
-RUN sudo apt update
+RUN sudo apt update -y
 RUN sudo apt install -y openmodelica
 
 # delete scs from cvxpy
@@ -101,10 +114,11 @@ RUN sudo apt install -y openmodelica
 #     echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 # to watch omp:
-RUN sudo apt-get install htop
+RUN sudo apt-get -y install htop
 # now, after building scs, install cvxpy:
-RUN sudo pip install --no-cache-dir cvxpy-base
-
+#RUN sudo pip install --no-cache-dir cvxpy-base
+RUN sudo pip install --no-cache-dir cvxpy
+RUN sudo pip uninstall -y opencv-python
 USER $USER_NAME
 ENV HOME /home/$USER_NAME
 ARG workdir=/home/$USER_NAME
@@ -116,7 +130,7 @@ WORKDIR $workdir
 #
 ENV LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"
 ENV OMP_NUM_THREADS=1
-ENV USER=om
+#ENV USER=om
 
 RUN echo -e '\n \e[1;34mInstallation complete\033[0m \n'
 
