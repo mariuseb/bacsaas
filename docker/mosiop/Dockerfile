@@ -134,6 +134,13 @@ WORKDIR $workdir
 #
 ENV LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"
 ENV OMP_NUM_THREADS=1
+
+RUN sudo python3.11 -m venv /opt/venv --system-site-packages
+# ensure venv is 'first' python:
+ENV PATH="/opt/venv/bin:$PATH"
+# ensure casadi is found in the right place:
+ENV PYTHONPATH="${PYTHONPATH}:/usr/local:/home/$USER_NAME/python"
+
 #ENV USER=om
 
 #RUN echo -e '\n \e[1;34mInstallation complete\033[0m \n'
