@@ -112,10 +112,10 @@ RUN sudo pip install --no-cache-dir -r ./mosiop/requirements.txt
 #    && cd scs-python \
 #    && sudo python setup.py install --scs --openmp
 
-#RUN useradd -d /home/${USER_NAME} -m ${USER_NAME} && \
-#     chown -R ${USER_NAME} /home/${USER_NAME} && \
-#     adduser ${USER_NAME} sudo && \
-#     echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+RUN sudo useradd -d /home/${USER_NAME} -m ${USER_NAME} && \
+    sudo chown -R ${USER_NAME} /home/${USER_NAME} && \
+    sudo adduser ${USER_NAME} sudo # &&  \
+     #echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 # to watch omp:
 RUN sudo apt-get -y install htop
