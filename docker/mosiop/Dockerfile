@@ -5,6 +5,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # UID and GID as obtained from bacssaas user on ROME id -u, id -g
 ARG USER_NAME
+ARG USER_UID=1000
+ARG USER_GID=$USER_UID
 #
 # generic packages
 #
@@ -115,7 +117,16 @@ RUN sudo pip install --no-cache-dir -r ./mosiop/requirements.txt
 RUN sudo useradd -d /home/${USER_NAME} -m ${USER_NAME} && \
     sudo chown -R ${USER_NAME} /home/${USER_NAME} && \
     sudo adduser ${USER_NAME} sudo # &&  \
-     #echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+#     #echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+
+#RUN groupadd --gid $USER_GID $USER_NAME \
+#    RUN useradd --uid $USER_UID --gid $USER_GID -m $USER_NAME \
+    #
+    # [Optional] Add sudo support. Omit if you don't need to install software after connecting.
+#    && apt-get update \
+#    && apt-get install -y sudo \
+#    && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
+#    && chmod 0440 /etc/sudoers.d/$USERNAME
 
 # to watch omp:
 RUN sudo apt-get -y install htop
@@ -124,11 +135,11 @@ RUN sudo apt-get -y install htop
 RUN sudo pip install --no-cache-dir cvxpy
 RUN sudo pip uninstall -y opencv-python
 USER $USER_NAME
-#ENV HOME /home/$USER_NAME
-#ARG workdir=/home/$USER_NAME
-#WORKDIR $workdir
-ARG workdir=/app/$USER_NAME
+ENV HOME /home/$USER_NAME
+ARG workdir=/home/$USER_NAME
 WORKDIR $workdir
+#ARG workdir=/app/$USER_NAME
+#WORKDIR $workdir
 
 # copy mosek.lic to lib path:
 #RUN mkdir /home/$USER_NAME/mosek
