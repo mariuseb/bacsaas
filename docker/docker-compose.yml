@@ -10,7 +10,7 @@ services:
     build:
       context: ./mosiop
       args:
-        - USER_NAME=marius
+        - USER_NAME=$USER
     stdin_open: true
     tty: true
     volumes:
