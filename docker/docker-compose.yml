@@ -13,6 +13,10 @@ services:
         - USER_NAME=$USER
     stdin_open: true
     tty: true
+    logging:
+        driver: journald
+        options:
+            tag: controller
     volumes:
        - /tmp/.X11-unix:/tmp/.X11-unix
        - $PWD/../code:/home/$USER:rw
