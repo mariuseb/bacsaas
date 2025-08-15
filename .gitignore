@@ -2,4 +2,5 @@
 !/.gitignore
 !.vscode/
 **/testid.txt
+code/nohup.out
 
