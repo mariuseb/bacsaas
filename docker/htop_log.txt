@@ -1,0 +1,1102 @@
+[?1049h[22;0;0t[1;62r(B[m[4l[?7h[?1h=[?25l[39;49m[?1006;1000h[39;49m(B[m[H[2J[2d  [36m  0[39m(B[0;1m[(B[0m[31m|||||||||||||||||||||||||||||||||||||||||||||||||||100.0%[39m(B[0;1m](B[m [36mTasks: (B[0;1m[36m73(B[0m[36m, (B[0;1m[32m231(B[0m[36m thr(B[0;1m[90m, 102 kthr(B[0m[36m; (B[0;1m[32m3(B[0m[36m running[3;3H  1[39m(B[0;1m[(B[0m[32m|||||||||||||||||||||||||||||||||||||||||||||||||||100.0%[39m(B[0;1m](B[m [36mLoad average: [39m(B[0;1m2.12 [36m1.90 (B[0m[36m1.20 [4;3H  2[39m(B[0;1m[(B[0m[32m|||||||||||||||||||||||||||||||||||||||||||||||||||100.0%[39m(B[0;1m](B[m [36mUptime: (B[0;1m[36m27 days, 18:46:31[5;3H(B[0m[36m  3[39m(B[0;1m[[90m[53X[5;60H0.0%[39m][6;3H(B[0m[36mMem[39m(B[0;1m[(B[0m[32m|||||[35m|(B[0;1m[34m|(B[0m[33m|||||||||||||||||||||||||||||||||||||||1(B[0;1m[90m.37G/15.6G[39m][7;3H(B[0m[36mSwp[39m(B[0;1m[[90m[52X[7;59H0K/0K[39m][9;3H(B[0m[32m[42m[[30m[42mMain[32m[42m][39;49m(B[m [34m[44m[[30m[44mI/O[34m[44m][10d[30m[42m    PID USER       PRI  NI  VIRT   RES   SHR S [30m[46m CPU%▽[30m[42mMEM%   TIME+  Command[K[11d[30m[46m 358077 101000      20   0 4058M  617M  250M R  57.1  3.9 10:30.50 python run_meta_config.py[K[12;2H[39;49m(B[m358078 [35mmariuseb   [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m330M  222M 60[39m(B[m672 [32mR [39m(B[m 57.1  1.4 12:09.40 python -m boptest_run_test {"testid": "278cd66a-d455-4755-afcd-[13;7H1 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m22[39m(B[m520 [36m13[39m(B[m668 [36m 9[39m(B[m316 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:44.66 /sbin/init[14;5H324 (B[0;1m[90mroot       [39m(B[m 19 [31m -1 [36m 182M  108M  107M (B[0;1m[90mS   0.0 [39m(B[m 0.7  0:38.09 /usr/lib/systemd/systemd-journald[15;5H368 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:56.56 /sbin/multipathd -d -s[16;5H384 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m26[39m(B[m012 [36m 7[39m(B[m260 [36m 4[39m(B[m700 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:02.89 /usr/lib/systemd/systemd-udevd[17;5H386 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:00.00 [32m/sbin/multipathd -d -s[18;5H[39m(B[m387 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:00.00 [32m/sbin/multipathd -d -s[19;5H[39m(B[m388 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:00.00 [32m/sbin/multipathd -d -s[20;5H[39m(B[m389 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:00.00 [32m/sbin/multipathd -d -s[21;5H[39m(B[m390 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  1:53.63 [32m/sbin/multipathd -d -s[22;5H[39m(B[m391 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:00.00 [32m/sbin/multipathd -d -s[23;5H[39m(B[m518 [35msystemd-re [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m21[39m(B[m816 [36m12[39m(B[m672 [36m10[39m(B[m496 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:05.31 /usr/lib/systemd/systemd-resolved[24;5H524 [35msystemd-ti [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m91[39m(B[m024 [36m 7[39m(B[m680 [36m 6[39m(B[m912 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:07.17 /usr/lib/systemd/systemd-timesyncd[25;5H539 [35msystemd-ti [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m91[39m(B[m024 [36m 7[39m(B[m680 [36m 6[39m(B[m912 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.00 [32m/usr/lib/systemd/systemd-timesyncd[26;5H[39m(B[m645 [35msystemd-ne [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m22[39m(B[m416 [36m 9[39m(B[m728 [36m 8[39m(B[m576 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:12.51 /usr/lib/systemd/systemd-networkd[27;5H692 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 7[39m(B[m224 [36m 2[39m(B[m688 [36m 2[39m(B[m432 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:04.22 /usr/sbin/cron -f -P[28;5H693 [35mmessagebus [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 9[39m(B[m956 [36m 5[39m(B[m376 [36m 4[39m(B[m608 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:08.63 @dbus-daemon --system --address=systemd: --nofork --nopidfile -[29;5H698 (B[0;1m[90mpolkitd    [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 374M  9[39m(B[m412 [36m 7[39m(B[m296 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.33 /usr/lib/polkit-1/polkitd --no-debug[30;5H704 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m18[39m(B[m176 [36m 8[39m(B[m320 [36m 7[39m(B[m424 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:04.54 /usr/lib/systemd/systemd-logind[31;5H706 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.71 /usr/libexec/udisks2/udisksd[32;5H755 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:33.92 [32m/usr/libexec/udisks2/udisksd[33;5H[39m(B[m759 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 6[39m(B[m148 [36m 2[39m(B[m048 [36m 1[39m(B[m920 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 -[34;5H760 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.46 [32m/usr/libexec/udisks2/udisksd[35;5H[39m(B[m763 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.08 [32m/usr/libexec/udisks2/udisksd[36;5H[39m(B[m765 (B[0;1m[90mpolkitd    [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 374M  9[39m(B[m412 [36m 7[39m(B[m296 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:43.16 [32m/usr/lib/polkit-1/polkitd --no-debug[37;5H[39m(B[m766 (B[0;1m[90mpolkitd    [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 374M  9[39m(B[m412 [36m 7[39m(B[m296 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/lib/polkit-1/polkitd --no-debug[38;5H[39m(B[m767 (B[0;1m[90mpolkitd    [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 374M  9[39m(B[m412 [36m 7[39m(B[m296 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.68 [32m/usr/lib/polkit-1/polkitd --no-debug[39;5H[39m(B[m768 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 107M 21[39m(B[m632 [36m12[39m(B[m416 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.04 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgr[40;5H776 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 6[39m(B[m104 [36m 1[39m(B[m920 [36m 1[39m(B[m792 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.00 /sbin/agetty -o -p -- \u --noclear - linux[41;5H781 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 310M 12[39m(B[m544 [36m10[39m(B[m752 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.18 /usr/sbin/ModemManager[42;5H786 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 310M 12[39m(B[m544 [36m10[39m(B[m752 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/sbin/ModemManager[43;5H[39m(B[m790 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 310M 12[39m(B[m544 [36m10[39m(B[m752 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/sbin/ModemManager[44;5H[39m(B[m792 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 310M 12[39m(B[m544 [36m10[39m(B[m752 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.33 [32m/usr/sbin/ModemManager[45;5H[39m(B[m793 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/libexec/udisks2/udisksd[46;5H[39m(B[m794 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/libexec/udisks2/udisksd[47;5H[39m(B[m799 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 107M 21[39m(B[m632 [36m12[39m(B[m416 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgr[48;3H[39m(B[m26834 (B[0;1m[90msyslog     [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 217M  5[39m(B[m760 [36m 4[39m(B[m096 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.18 /usr/sbin/rsyslogd -n -iNONE[49;3H26835 (B[0;1m[90msyslog     [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 217M  5[39m(B[m760 [36m 4[39m(B[m096 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:06.08 [32m/usr/sbin/rsyslogd -n -iNONE[50;3H[39m(B[m26836 (B[0;1m[90msyslog     [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 217M  5[39m(B[m760 [36m 4[39m(B[m096 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.15 [32m/usr/sbin/rsyslogd -n -iNONE[51;3H[39m(B[m26837 (B[0;1m[90msyslog     [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 217M  5[39m(B[m760 [36m 4[39m(B[m096 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:04.71 [32m/usr/sbin/rsyslogd -n -iNONE[52;3H[39m(B[m50831 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m12[39m(B[m144 [36m 7[39m(B[m808 [36m 6[39m(B[m784 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.13 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups[53;3H51901 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  0:00.00 /usr/bin/containerd[54;3H51903 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  2:54.22 [32m/usr/bin/containerd[55;3H[39m(B[m51904 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  0:00.00 [32m/usr/bin/containerd[56;3H[39m(B[m51905 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  1:42.38 [32m/usr/bin/containerd[57;3H[39m(B[m51906 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  1:39.39 [32m/usr/bin/containerd[58;3H[39m(B[m51907 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  0:00.00 [32m/usr/bin/containerd[59;3H[39m(B[m51908 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  1:41.56 [32m/usr/bin/containerd[60;3H[39m(B[m51910 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  1:40.25 [32m/usr/bin/containerd[61;3H[39m(B[m51913 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  1:38.70 [32m/usr/bin/containerd[62d[39m(B[mF1[30m[46mHelp  [39;49m(B[mF2[30m[46mSetup [39;49m(B[mF3[30m[46mSearch[39;49m(B[mF4[30m[46mFilter[39;49m(B[mF5[30m[46mTree  [39;49m(B[mF6[30m[46mSortBy[39;49m(B[mF7[30m[46mNice -[39;49m(B[mF8[30m[46mNice +[39;49m(B[mF9[30m[46mKill  [39;49m(B[mF10[30m[46mQuit[K  [39;49m(B[m[J[?12l[?25h[?1006;1000l[62;1H[?1049l[23;0;0t[?1l>
+[?1049h[22;0;0t[1;62r(B[m[4l[?7h[?1h=[?25l[39;49m[?1006;1000h[39;49m(B[m[H[2J[2d  [36m  0[39m(B[0;1m[(B[0m[32m|||||||||||||||||||||||||||||[31m||||||||||||||||||||||100.0%[39m(B[0;1m](B[m [36mTasks: (B[0;1m[36m73(B[0m[36m, (B[0;1m[32m231(B[0m[36m thr(B[0;1m[90m, 101 kthr(B[0m[36m; (B[0;1m[32m3(B[0m[36m running[3;3H  1[39m(B[0;1m[[90m[53X[3;60H0.0%[39m](B[m [36mLoad average: [39m(B[0;1m2.11 [36m1.91 (B[0m[36m1.20 [4;3H  2[39m(B[0;1m[(B[0m[32m|||||||||||||||||||||||||||||(B[0;1m[90m[23X[4;59H50.0%[39m](B[m [36mUptime: (B[0;1m[36m27 days, 18:46:35[5;3H(B[0m[36m  3[39m(B[0;1m[(B[0m[32m|||||||||||||||||||||||||||||[31m||||||||||||||||||||||100.0%[39m(B[0;1m][6;3H(B[0m[36mMem[39m(B[0;1m[(B[0m[32m|||||[35m|(B[0;1m[34m|(B[0m[33m|||||||||||||||||||||||||||||||||||||||1(B[0;1m[90m.37G/15.6G[39m][7;3H(B[0m[36mSwp[39m(B[0;1m[[90m[52X[7;59H0K/0K[39m][9;3H(B[0m[32m[42m[[30m[42mMain[32m[42m][39;49m(B[m [34m[44m[[30m[44mI/O[34m[44m][10d[30m[42m    PID USER       PRI  NI  VIRT   RES   SHR S [30m[46m CPU%▽[30m[42mMEM%   TIME+  Command[K[11d[30m[46m 358078 mariuseb    20   0 1330M  222M 60672 R  80.0  1.4 12:13.87 python -m boptest_run_test {"testid": "278cd66a-d455-4755-afcd-[12;2H[39;49m(B[m358591 mariuseb    20 (B[0;1m[90m  0 (B[0m[36m 9[39m(B[m912 [36m 5[39m(B[m504 [36m 3[39m(B[m968 [32mR [39m(B[m 80.0 (B[0;1m[90m 0.0 [39m(B[m 0:00.04 htop -d 10[13;7H1 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m22[39m(B[m520 [36m13[39m(B[m668 [36m 9[39m(B[m316 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:44.66 /sbin/init[14;5H324 (B[0;1m[90mroot       [39m(B[m 19 [31m -1 [36m 182M  108M  107M (B[0;1m[90mS   0.0 [39m(B[m 0.7  0:38.10 /usr/lib/systemd/systemd-journald[15;5H368 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:56.56 /sbin/multipathd -d -s[16;5H384 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m26[39m(B[m012 [36m 7[39m(B[m260 [36m 4[39m(B[m700 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:02.89 /usr/lib/systemd/systemd-udevd[17;5H386 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:00.00 [32m/sbin/multipathd -d -s[18;5H[39m(B[m387 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:00.00 [32m/sbin/multipathd -d -s[19;5H[39m(B[m388 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:00.00 [32m/sbin/multipathd -d -s[20;5H[39m(B[m389 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:00.00 [32m/sbin/multipathd -d -s[21;5H[39m(B[m390 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  1:53.63 [32m/sbin/multipathd -d -s[22;5H[39m(B[m391 (B[0;1m[90mroot       [39m(B[m RT (B[0;1m[90m  0 (B[0m[36m 282M 26[39m(B[m752 [36m 8[39m(B[m448 (B[0;1m[90mS   0.0 [39m(B[m 0.2  0:00.00 [32m/sbin/multipathd -d -s[23;5H[39m(B[m518 [35msystemd-re [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m21[39m(B[m816 [36m12[39m(B[m672 [36m10[39m(B[m496 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:05.31 /usr/lib/systemd/systemd-resolved[24;5H524 [35msystemd-ti [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m91[39m(B[m024 [36m 7[39m(B[m680 [36m 6[39m(B[m912 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:07.17 /usr/lib/systemd/systemd-timesyncd[25;5H539 [35msystemd-ti [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m91[39m(B[m024 [36m 7[39m(B[m680 [36m 6[39m(B[m912 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.00 [32m/usr/lib/systemd/systemd-timesyncd[26;5H[39m(B[m645 [35msystemd-ne [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m22[39m(B[m416 [36m 9[39m(B[m728 [36m 8[39m(B[m576 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:12.51 /usr/lib/systemd/systemd-networkd[27;5H692 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 7[39m(B[m224 [36m 2[39m(B[m688 [36m 2[39m(B[m432 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:04.22 /usr/sbin/cron -f -P[28;5H693 [35mmessagebus [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 9[39m(B[m956 [36m 5[39m(B[m376 [36m 4[39m(B[m608 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:08.63 @dbus-daemon --system --address=systemd: --nofork --nopidfile -[29;5H698 (B[0;1m[90mpolkitd    [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 374M  9[39m(B[m412 [36m 7[39m(B[m296 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.33 /usr/lib/polkit-1/polkitd --no-debug[30;5H704 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m18[39m(B[m176 [36m 8[39m(B[m320 [36m 7[39m(B[m424 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:04.54 /usr/lib/systemd/systemd-logind[31;5H706 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.71 /usr/libexec/udisks2/udisksd[32;5H755 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:33.92 [32m/usr/libexec/udisks2/udisksd[33;5H[39m(B[m759 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 6[39m(B[m148 [36m 2[39m(B[m048 [36m 1[39m(B[m920 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 -[34;5H760 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.46 [32m/usr/libexec/udisks2/udisksd[35;5H[39m(B[m763 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.08 [32m/usr/libexec/udisks2/udisksd[36;5H[39m(B[m765 (B[0;1m[90mpolkitd    [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 374M  9[39m(B[m412 [36m 7[39m(B[m296 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:43.16 [32m/usr/lib/polkit-1/polkitd --no-debug[37;5H[39m(B[m766 (B[0;1m[90mpolkitd    [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 374M  9[39m(B[m412 [36m 7[39m(B[m296 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/lib/polkit-1/polkitd --no-debug[38;5H[39m(B[m767 (B[0;1m[90mpolkitd    [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 374M  9[39m(B[m412 [36m 7[39m(B[m296 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.68 [32m/usr/lib/polkit-1/polkitd --no-debug[39;5H[39m(B[m768 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 107M 21[39m(B[m632 [36m12[39m(B[m416 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.04 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgr[40;5H776 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 6[39m(B[m104 [36m 1[39m(B[m920 [36m 1[39m(B[m792 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.00 /sbin/agetty -o -p -- \u --noclear - linux[41;5H781 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 310M 12[39m(B[m544 [36m10[39m(B[m752 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.18 /usr/sbin/ModemManager[42;5H786 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 310M 12[39m(B[m544 [36m10[39m(B[m752 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/sbin/ModemManager[43;5H[39m(B[m790 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 310M 12[39m(B[m544 [36m10[39m(B[m752 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/sbin/ModemManager[44;5H[39m(B[m792 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 310M 12[39m(B[m544 [36m10[39m(B[m752 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.33 [32m/usr/sbin/ModemManager[45;5H[39m(B[m793 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/libexec/udisks2/udisksd[46;5H[39m(B[m794 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 457M 13[39m(B[m184 [36m11[39m(B[m264 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/libexec/udisks2/udisksd[47;5H[39m(B[m799 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 107M 21[39m(B[m632 [36m12[39m(B[m416 (B[0;1m[90mS   0.0 [39m(B[m 0.1  0:00.00 [32m/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgr[48;3H[39m(B[m26834 (B[0;1m[90msyslog     [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 217M  5[39m(B[m760 [36m 4[39m(B[m096 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.18 /usr/sbin/rsyslogd -n -iNONE[49;3H26835 (B[0;1m[90msyslog     [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 217M  5[39m(B[m760 [36m 4[39m(B[m096 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:06.08 [32m/usr/sbin/rsyslogd -n -iNONE[50;3H[39m(B[m26836 (B[0;1m[90msyslog     [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 217M  5[39m(B[m760 [36m 4[39m(B[m096 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.15 [32m/usr/sbin/rsyslogd -n -iNONE[51;3H[39m(B[m26837 (B[0;1m[90msyslog     [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m 217M  5[39m(B[m760 [36m 4[39m(B[m096 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:04.71 [32m/usr/sbin/rsyslogd -n -iNONE[52;3H[39m(B[m50831 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[36m12[39m(B[m144 [36m 7[39m(B[m808 [36m 6[39m(B[m784 (B[0;1m[90mS   0.0  0.0 [39m(B[m 0:00.13 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups[53;3H51901 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  0:00.00 /usr/bin/containerd[54;3H51903 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  2:54.22 [32m/usr/bin/containerd[55;3H[39m(B[m51904 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  0:00.00 [32m/usr/bin/containerd[56;3H[39m(B[m51905 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  1:42.38 [32m/usr/bin/containerd[57;3H[39m(B[m51906 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  1:39.39 [32m/usr/bin/containerd[58;3H[39m(B[m51907 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  0:00.00 [32m/usr/bin/containerd[59;3H[39m(B[m51908 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  1:41.56 [32m/usr/bin/containerd[60;3H[39m(B[m51910 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  1:40.25 [32m/usr/bin/containerd[61;3H[39m(B[m51913 (B[0;1m[90mroot       [39m(B[m 20 (B[0;1m[90m  0 (B[0m[32m1[36m831M 45[39m(B[m108 [36m32[39m(B[m256 (B[0;1m[90mS   0.0 [39m(B[m 0.3  1:38.70 [32m/usr/bin/containerd[62d[39m(B[mF1[30m[46mHelp  [39;49m(B[mF2[30m[46mSetup [39;49m(B[mF3[30m[46mSearch[39;49m(B[mF4[30m[46mFilter[39;49m(B[mF5[30m[46mTree  [39;49m(B[mF6[30m[46mSortBy[39;49m(B[mF7[30m[46mNice -[39;49m(B[mF8[30m[46mNice +[39;49m(B[mF9[30m[46mKill  [39;49m(B[mF10[30m[46mQuit[K  [39;49m(B[m[J[?12l[?25h[?1006;1000l[62;1H[?1049l[23;0;0t[?1l>
+--- Wed Aug 20 08:41:46 CEST 2025 ---
+MiB Mem :  15993.3 total,   3446.8 free,   1896.0 used,  11137.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14097.3 avail Mem 
+
+--- Wed Aug 20 08:41:51 CEST 2025 ---
+MiB Mem :  15993.3 total,   3445.4 free,   1897.3 used,  11137.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14096.0 avail Mem 
+
+--- Wed Aug 20 08:41:56 CEST 2025 ---
+MiB Mem :  15993.3 total,   3414.7 free,   1927.6 used,  11137.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14065.7 avail Mem 
+
+--- Wed Aug 20 08:42:01 CEST 2025 ---
+MiB Mem :  15993.3 total,   3433.1 free,   1909.2 used,  11137.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14084.1 avail Mem 
+
+--- Wed Aug 20 08:42:06 CEST 2025 ---
+MiB Mem :  15993.3 total,   3432.0 free,   1910.1 used,  11138.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14083.2 avail Mem 
+
+--- Wed Aug 20 08:42:12 CEST 2025 ---
+MiB Mem :  15993.3 total,   3431.5 free,   1910.3 used,  11138.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14083.0 avail Mem 
+
+--- Wed Aug 20 08:42:17 CEST 2025 ---
+MiB Mem :  15993.3 total,   3431.5 free,   1910.1 used,  11138.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14083.1 avail Mem 
+
+--- Wed Aug 20 08:42:22 CEST 2025 ---
+MiB Mem :  15993.3 total,   3431.5 free,   1910.0 used,  11138.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14083.3 avail Mem 
+
+--- Wed Aug 20 08:42:37 CEST 2025 ---
+MiB Mem :  15993.3 total,   3431.5 free,   1909.6 used,  11139.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14083.7 avail Mem 
+
+--- Wed Aug 20 08:43:37 CEST 2025 ---
+MiB Mem :  15993.3 total,   3438.4 free,   1900.5 used,  11141.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14092.7 avail Mem 
+
+--- Wed Aug 20 08:44:37 CEST 2025 ---
+MiB Mem :  15993.3 total,   3434.2 free,   1902.8 used,  11143.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14090.5 avail Mem 
+
+--- Wed Aug 20 08:45:37 CEST 2025 ---
+MiB Mem :  15993.3 total,   3454.2 free,   1881.2 used,  11144.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14112.1 avail Mem 
+
+--- Wed Aug 20 08:46:37 CEST 2025 ---
+MiB Mem :  15993.3 total,   3452.4 free,   1880.7 used,  11146.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14112.5 avail Mem 
+
+--- Wed Aug 20 08:47:38 CEST 2025 ---
+MiB Mem :  15993.3 total,   3447.5 free,   1883.7 used,  11149.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14109.6 avail Mem 
+
+--- Wed Aug 20 08:48:38 CEST 2025 ---
+MiB Mem :  15993.3 total,   3445.2 free,   1884.0 used,  11150.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14109.2 avail Mem 
+
+--- Wed Aug 20 08:49:38 CEST 2025 ---
+MiB Mem :  15993.3 total,   3442.5 free,   1884.9 used,  11152.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14108.4 avail Mem 
+
+--- Wed Aug 20 08:50:38 CEST 2025 ---
+MiB Mem :  15993.3 total,   3437.9 free,   1887.4 used,  11154.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14105.9 avail Mem 
+
+--- Wed Aug 20 08:51:38 CEST 2025 ---
+MiB Mem :  15993.3 total,   3432.7 free,   1890.7 used,  11156.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14102.6 avail Mem 
+
+--- Wed Aug 20 08:52:39 CEST 2025 ---
+MiB Mem :  15993.3 total,   3423.0 free,   1898.2 used,  11158.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14095.0 avail Mem 
+
+--- Wed Aug 20 08:53:39 CEST 2025 ---
+MiB Mem :  15993.3 total,   3408.9 free,   1910.1 used,  11161.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14083.2 avail Mem 
+
+--- Wed Aug 20 08:54:39 CEST 2025 ---
+MiB Mem :  15993.3 total,   3406.2 free,   1911.0 used,  11162.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14082.2 avail Mem 
+
+--- Wed Aug 20 08:55:39 CEST 2025 ---
+MiB Mem :  15993.3 total,   3400.1 free,   1915.3 used,  11164.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14078.0 avail Mem 
+
+--- Wed Aug 20 08:56:40 CEST 2025 ---
+MiB Mem :  15993.3 total,   3400.1 free,   1913.3 used,  11166.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14080.0 avail Mem 
+
+--- Wed Aug 20 08:57:40 CEST 2025 ---
+MiB Mem :  15993.3 total,   3400.1 free,   1911.1 used,  11169.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14082.2 avail Mem 
+
+--- Wed Aug 20 08:58:40 CEST 2025 ---
+MiB Mem :  15993.3 total,   3396.1 free,   1913.0 used,  11171.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14080.2 avail Mem 
+
+--- Wed Aug 20 08:59:40 CEST 2025 ---
+MiB Mem :  15993.3 total,   3388.0 free,   1919.0 used,  11173.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14074.2 avail Mem 
+
+--- Wed Aug 20 09:00:40 CEST 2025 ---
+MiB Mem :  15993.3 total,   3389.5 free,   1914.8 used,  11175.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14078.5 avail Mem 
+
+--- Wed Aug 20 09:01:41 CEST 2025 ---
+MiB Mem :  15993.3 total,   3373.1 free,   1926.8 used,  11180.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14066.5 avail Mem 
+
+--- Wed Aug 20 09:02:41 CEST 2025 ---
+MiB Mem :  15993.3 total,   3370.7 free,   1925.2 used,  11184.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14068.1 avail Mem 
+
+--- Wed Aug 20 09:03:41 CEST 2025 ---
+MiB Mem :  15993.3 total,   3369.2 free,   1924.0 used,  11186.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14069.2 avail Mem 
+
+--- Wed Aug 20 09:04:41 CEST 2025 ---
+MiB Mem :  15993.3 total,   3361.8 free,   1928.8 used,  11189.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14064.5 avail Mem 
+
+--- Wed Aug 20 09:05:42 CEST 2025 ---
+MiB Mem :  15993.3 total,   3348.0 free,   1940.5 used,  11191.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14052.8 avail Mem 
+
+--- Wed Aug 20 09:06:42 CEST 2025 ---
+MiB Mem :  15993.3 total,   3345.5 free,   1940.6 used,  11194.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14052.7 avail Mem 
+
+--- Wed Aug 20 09:07:42 CEST 2025 ---
+MiB Mem :  15993.3 total,   3339.8 free,   1944.1 used,  11196.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14049.2 avail Mem 
+
+--- Wed Aug 20 09:08:42 CEST 2025 ---
+MiB Mem :  15993.3 total,   3334.9 free,   1946.7 used,  11198.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14046.6 avail Mem 
+
+--- Wed Aug 20 09:09:42 CEST 2025 ---
+MiB Mem :  15993.3 total,   3334.9 free,   1944.7 used,  11200.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14048.6 avail Mem 
+
+--- Wed Aug 20 09:10:43 CEST 2025 ---
+MiB Mem :  15993.3 total,   3333.0 free,   1944.2 used,  11203.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14049.1 avail Mem 
+
+--- Wed Aug 20 09:11:43 CEST 2025 ---
+MiB Mem :  15993.3 total,   3328.5 free,   1946.3 used,  11205.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14047.0 avail Mem 
+
+--- Wed Aug 20 09:12:43 CEST 2025 ---
+MiB Mem :  15993.3 total,   3328.3 free,   1944.3 used,  11207.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14049.0 avail Mem 
+
+--- Wed Aug 20 09:13:43 CEST 2025 ---
+MiB Mem :  15993.3 total,   3318.4 free,   1952.0 used,  11209.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14041.3 avail Mem 
+
+--- Wed Aug 20 09:14:43 CEST 2025 ---
+MiB Mem :  15993.3 total,   3318.4 free,   1950.1 used,  11211.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14043.2 avail Mem 
+
+--- Wed Aug 20 09:15:44 CEST 2025 ---
+MiB Mem :  15993.3 total,   3316.6 free,   1949.8 used,  11213.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14043.5 avail Mem 
+
+--- Wed Aug 20 09:16:44 CEST 2025 ---
+MiB Mem :  15993.3 total,   3312.7 free,   1951.0 used,  11216.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14042.3 avail Mem 
+
+--- Wed Aug 20 09:17:44 CEST 2025 ---
+MiB Mem :  15993.3 total,   3304.3 free,   1956.3 used,  11219.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14037.0 avail Mem 
+
+--- Wed Aug 20 09:18:44 CEST 2025 ---
+MiB Mem :  15993.3 total,   3300.1 free,   1958.8 used,  11221.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14034.5 avail Mem 
+
+--- Wed Aug 20 09:19:45 CEST 2025 ---
+MiB Mem :  15993.3 total,   3298.7 free,   1958.2 used,  11223.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14035.0 avail Mem 
+
+--- Wed Aug 20 09:20:45 CEST 2025 ---
+MiB Mem :  15993.3 total,   3296.2 free,   1958.6 used,  11225.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14034.6 avail Mem 
+
+--- Wed Aug 20 09:21:45 CEST 2025 ---
+MiB Mem :  15993.3 total,   3292.3 free,   1960.2 used,  11227.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14033.1 avail Mem 
+
+--- Wed Aug 20 09:22:45 CEST 2025 ---
+MiB Mem :  15993.3 total,   3281.9 free,   1968.3 used,  11229.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14025.0 avail Mem 
+
+--- Wed Aug 20 09:23:45 CEST 2025 ---
+MiB Mem :  15993.3 total,   3278.8 free,   1969.3 used,  11232.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14023.9 avail Mem 
+
+--- Wed Aug 20 09:24:46 CEST 2025 ---
+MiB Mem :  15993.3 total,   3274.8 free,   1971.1 used,  11234.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14022.1 avail Mem 
+
+--- Wed Aug 20 09:25:46 CEST 2025 ---
+MiB Mem :  15993.3 total,   3269.7 free,   1974.0 used,  11236.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14019.3 avail Mem 
+
+--- Wed Aug 20 09:26:46 CEST 2025 ---
+MiB Mem :  15993.3 total,   3258.6 free,   1982.4 used,  11239.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14010.9 avail Mem 
+
+--- Wed Aug 20 09:27:46 CEST 2025 ---
+MiB Mem :  15993.3 total,   3256.9 free,   1981.6 used,  11241.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14011.7 avail Mem 
+
+--- Wed Aug 20 09:28:47 CEST 2025 ---
+MiB Mem :  15993.3 total,   3246.7 free,   1989.2 used,  11244.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14004.1 avail Mem 
+
+--- Wed Aug 20 09:29:47 CEST 2025 ---
+MiB Mem :  15993.3 total,   3243.2 free,   1990.3 used,  11246.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14002.9 avail Mem 
+
+--- Wed Aug 20 09:30:47 CEST 2025 ---
+MiB Mem :  15993.3 total,   3237.8 free,   1993.4 used,  11248.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13999.8 avail Mem 
+
+--- Wed Aug 20 09:31:47 CEST 2025 ---
+MiB Mem :  15993.3 total,   3237.5 free,   1991.6 used,  11251.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14001.7 avail Mem 
+
+--- Wed Aug 20 09:32:47 CEST 2025 ---
+MiB Mem :  15993.3 total,   3235.1 free,   1991.9 used,  11253.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14001.3 avail Mem 
+
+--- Wed Aug 20 09:33:48 CEST 2025 ---
+MiB Mem :  15993.3 total,   3233.6 free,   1991.0 used,  11255.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14002.3 avail Mem 
+
+--- Wed Aug 20 09:34:48 CEST 2025 ---
+MiB Mem :  15993.3 total,   3231.1 free,   1991.4 used,  11257.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14001.9 avail Mem 
+
+--- Wed Aug 20 09:35:48 CEST 2025 ---
+MiB Mem :  15993.3 total,   3225.4 free,   1994.9 used,  11259.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13998.4 avail Mem 
+
+--- Wed Aug 20 09:36:48 CEST 2025 ---
+MiB Mem :  15993.3 total,   3221.5 free,   1996.6 used,  11262.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13996.7 avail Mem 
+
+--- Wed Aug 20 09:37:48 CEST 2025 ---
+MiB Mem :  15993.3 total,   3208.3 free,   2000.0 used,  11271.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13993.2 avail Mem 
+
+--- Wed Aug 20 09:38:49 CEST 2025 ---
+MiB Mem :  15993.3 total,   3192.2 free,   2014.0 used,  11273.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13979.2 avail Mem 
+
+--- Wed Aug 20 09:39:49 CEST 2025 ---
+MiB Mem :  15993.3 total,   3193.8 free,   2010.6 used,  11275.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13982.7 avail Mem 
+
+--- Wed Aug 20 09:40:49 CEST 2025 ---
+MiB Mem :  15993.3 total,   3191.1 free,   2010.7 used,  11278.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13982.6 avail Mem 
+
+--- Wed Aug 20 09:41:49 CEST 2025 ---
+MiB Mem :  15993.3 total,   3181.0 free,   2018.8 used,  11280.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13974.5 avail Mem 
+
+--- Wed Aug 20 09:42:50 CEST 2025 ---
+MiB Mem :  15993.3 total,   3173.4 free,   2024.3 used,  11282.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13969.0 avail Mem 
+
+--- Wed Aug 20 09:43:50 CEST 2025 ---
+MiB Mem :  15993.3 total,   3171.6 free,   2023.9 used,  11284.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13969.3 avail Mem 
+
+--- Wed Aug 20 09:44:50 CEST 2025 ---
+MiB Mem :  15993.3 total,   3168.2 free,   2024.3 used,  11287.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13969.0 avail Mem 
+
+--- Wed Aug 20 09:45:50 CEST 2025 ---
+MiB Mem :  15993.3 total,   3164.0 free,   2026.3 used,  11289.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13967.0 avail Mem 
+
+--- Wed Aug 20 09:46:50 CEST 2025 ---
+MiB Mem :  15993.3 total,   3157.1 free,   2031.1 used,  11291.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13962.2 avail Mem 
+
+--- Wed Aug 20 09:47:51 CEST 2025 ---
+MiB Mem :  15993.3 total,   3156.1 free,   2029.8 used,  11294.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13963.5 avail Mem 
+
+--- Wed Aug 20 09:48:51 CEST 2025 ---
+MiB Mem :  15993.3 total,   3149.5 free,   2033.9 used,  11296.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13959.3 avail Mem 
+
+--- Wed Aug 20 09:49:51 CEST 2025 ---
+MiB Mem :  15993.3 total,   3141.6 free,   2039.3 used,  11299.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13954.0 avail Mem 
+
+--- Wed Aug 20 09:50:51 CEST 2025 ---
+MiB Mem :  15993.3 total,   3137.3 free,   2041.1 used,  11301.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13952.2 avail Mem 
+
+--- Wed Aug 20 09:51:51 CEST 2025 ---
+MiB Mem :  15993.3 total,   3130.8 free,   2045.0 used,  11304.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13948.3 avail Mem 
+
+--- Wed Aug 20 09:52:52 CEST 2025 ---
+MiB Mem :  15993.3 total,   3129.6 free,   2041.9 used,  11308.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13951.3 avail Mem 
+
+--- Wed Aug 20 09:53:52 CEST 2025 ---
+MiB Mem :  15993.3 total,   3127.4 free,   2041.9 used,  11310.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13951.4 avail Mem 
+
+--- Wed Aug 20 09:54:52 CEST 2025 ---
+MiB Mem :  15993.3 total,   3119.2 free,   2047.8 used,  11313.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13945.5 avail Mem 
+
+--- Wed Aug 20 09:55:52 CEST 2025 ---
+MiB Mem :  15993.3 total,   3122.6 free,   2042.1 used,  11315.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13951.1 avail Mem 
+
+--- Wed Aug 20 09:56:53 CEST 2025 ---
+MiB Mem :  15993.3 total,   3113.8 free,   2049.0 used,  11317.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13944.2 avail Mem 
+
+--- Wed Aug 20 09:57:53 CEST 2025 ---
+MiB Mem :  15993.3 total,   3112.8 free,   2048.3 used,  11319.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13945.0 avail Mem 
+
+--- Wed Aug 20 09:58:53 CEST 2025 ---
+MiB Mem :  15993.3 total,   3110.6 free,   2048.5 used,  11321.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13944.8 avail Mem 
+
+--- Wed Aug 20 09:59:53 CEST 2025 ---
+MiB Mem :  15993.3 total,   3112.1 free,   2044.7 used,  11323.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13948.6 avail Mem 
+
+--- Wed Aug 20 10:00:53 CEST 2025 ---
+MiB Mem :  15993.3 total,   3101.5 free,   2053.3 used,  11325.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13940.0 avail Mem 
+
+--- Wed Aug 20 10:01:54 CEST 2025 ---
+MiB Mem :  15993.3 total,   3097.5 free,   2055.4 used,  11327.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13937.9 avail Mem 
+
+--- Wed Aug 20 10:02:54 CEST 2025 ---
+MiB Mem :  15993.3 total,   3097.5 free,   2053.6 used,  11329.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13939.7 avail Mem 
+
+--- Wed Aug 20 10:03:54 CEST 2025 ---
+MiB Mem :  15993.3 total,   3095.8 free,   2053.5 used,  11330.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13939.8 avail Mem 
+
+--- Wed Aug 20 10:04:54 CEST 2025 ---
+MiB Mem :  15993.3 total,   3096.2 free,   2050.6 used,  11333.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13942.7 avail Mem 
+
+--- Wed Aug 20 10:05:55 CEST 2025 ---
+MiB Mem :  15993.3 total,   3089.6 free,   2055.1 used,  11335.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13938.1 avail Mem 
+
+--- Wed Aug 20 10:06:55 CEST 2025 ---
+MiB Mem :  15993.3 total,   3083.4 free,   2059.1 used,  11337.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13934.2 avail Mem 
+
+--- Wed Aug 20 10:07:55 CEST 2025 ---
+MiB Mem :  15993.3 total,   3080.0 free,   2060.7 used,  11339.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13932.6 avail Mem 
+
+--- Wed Aug 20 10:08:55 CEST 2025 ---
+MiB Mem :  15993.3 total,   3075.4 free,   2063.1 used,  11341.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13930.1 avail Mem 
+
+--- Wed Aug 20 10:09:55 CEST 2025 ---
+MiB Mem :  15993.3 total,   3069.7 free,   2066.8 used,  11343.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13926.5 avail Mem 
+
+--- Wed Aug 20 10:10:56 CEST 2025 ---
+MiB Mem :  15993.3 total,   3060.3 free,   2074.3 used,  11345.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13919.0 avail Mem 
+
+--- Wed Aug 20 10:11:56 CEST 2025 ---
+MiB Mem :  15993.3 total,   3060.3 free,   2072.2 used,  11347.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13921.1 avail Mem 
+
+--- Wed Aug 20 10:12:56 CEST 2025 ---
+MiB Mem :  15993.3 total,   3057.6 free,   2073.2 used,  11349.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13920.1 avail Mem 
+
+--- Wed Aug 20 10:13:56 CEST 2025 ---
+MiB Mem :  15993.3 total,   3049.2 free,   2079.4 used,  11351.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13913.8 avail Mem 
+
+--- Wed Aug 20 10:14:56 CEST 2025 ---
+MiB Mem :  15993.3 total,   3040.3 free,   2085.8 used,  11354.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13907.5 avail Mem 
+
+--- Wed Aug 20 10:15:57 CEST 2025 ---
+MiB Mem :  15993.3 total,   3037.6 free,   2086.1 used,  11356.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13907.2 avail Mem 
+
+--- Wed Aug 20 10:16:57 CEST 2025 ---
+MiB Mem :  15993.3 total,   3028.2 free,   2093.1 used,  11358.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13900.2 avail Mem 
+
+--- Wed Aug 20 10:17:57 CEST 2025 ---
+MiB Mem :  15993.3 total,   3017.6 free,   2101.3 used,  11361.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13892.0 avail Mem 
+
+--- Wed Aug 20 10:18:57 CEST 2025 ---
+MiB Mem :  15993.3 total,   3025.2 free,   2091.2 used,  11363.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13902.0 avail Mem 
+
+--- Wed Aug 20 10:19:58 CEST 2025 ---
+MiB Mem :  15993.3 total,   3024.3 free,   2090.4 used,  11365.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13902.9 avail Mem 
+
+--- Wed Aug 20 10:20:58 CEST 2025 ---
+MiB Mem :  15993.3 total,   3019.3 free,   2093.3 used,  11367.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13900.0 avail Mem 
+
+--- Wed Aug 20 10:21:58 CEST 2025 ---
+MiB Mem :  15993.3 total,   3016.9 free,   2093.6 used,  11369.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13899.6 avail Mem 
+
+--- Wed Aug 20 10:22:58 CEST 2025 ---
+MiB Mem :  15993.3 total,   3016.7 free,   2091.8 used,  11371.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13901.4 avail Mem 
+
+--- Wed Aug 20 10:23:58 CEST 2025 ---
+MiB Mem :  15993.3 total,   3009.6 free,   2096.7 used,  11373.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13896.6 avail Mem 
+
+--- Wed Aug 20 10:24:59 CEST 2025 ---
+MiB Mem :  15993.3 total,   3000.3 free,   2104.1 used,  11375.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13889.2 avail Mem 
+
+--- Wed Aug 20 10:25:59 CEST 2025 ---
+MiB Mem :  15993.3 total,   2992.4 free,   2109.8 used,  11378.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13883.5 avail Mem 
+
+--- Wed Aug 20 10:26:59 CEST 2025 ---
+MiB Mem :  15993.3 total,   2993.7 free,   2106.1 used,  11380.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13887.2 avail Mem 
+
+--- Wed Aug 20 10:27:59 CEST 2025 ---
+MiB Mem :  15993.3 total,   2986.0 free,   2111.8 used,  11382.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13881.4 avail Mem 
+
+--- Wed Aug 20 10:28:59 CEST 2025 ---
+MiB Mem :  15993.3 total,   2982.8 free,   2112.6 used,  11384.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13880.7 avail Mem 
+
+--- Wed Aug 20 10:30:00 CEST 2025 ---
+MiB Mem :  15993.3 total,   2955.3 free,   2134.1 used,  11390.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13859.2 avail Mem 
+
+--- Wed Aug 20 10:31:00 CEST 2025 ---
+MiB Mem :  15993.3 total,   2951.8 free,   2135.4 used,  11392.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13857.8 avail Mem 
+
+--- Wed Aug 20 10:32:00 CEST 2025 ---
+MiB Mem :  15993.3 total,   2943.6 free,   2141.3 used,  11395.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13851.9 avail Mem 
+
+--- Wed Aug 20 10:33:00 CEST 2025 ---
+MiB Mem :  15993.3 total,   2943.2 free,   2139.5 used,  11397.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13853.7 avail Mem 
+
+--- Wed Aug 20 10:34:01 CEST 2025 ---
+MiB Mem :  15993.3 total,   2941.2 free,   2139.4 used,  11399.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13853.8 avail Mem 
+
+--- Wed Aug 20 10:35:01 CEST 2025 ---
+MiB Mem :  15993.3 total,   2939.7 free,   2138.9 used,  11401.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13854.4 avail Mem 
+
+--- Wed Aug 20 10:36:01 CEST 2025 ---
+MiB Mem :  15993.3 total,   2939.0 free,   2137.2 used,  11404.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13856.1 avail Mem 
+
+--- Wed Aug 20 10:37:01 CEST 2025 ---
+MiB Mem :  15993.3 total,   2937.0 free,   2137.2 used,  11405.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13856.0 avail Mem 
+
+--- Wed Aug 20 10:38:01 CEST 2025 ---
+MiB Mem :  15993.3 total,   2935.0 free,   2136.8 used,  11408.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13856.4 avail Mem 
+
+--- Wed Aug 20 10:39:02 CEST 2025 ---
+MiB Mem :  15993.3 total,   2925.1 free,   2144.1 used,  11410.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13849.1 avail Mem 
+
+--- Wed Aug 20 10:40:02 CEST 2025 ---
+MiB Mem :  15993.3 total,   2919.7 free,   2147.3 used,  11413.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13846.0 avail Mem 
+
+--- Wed Aug 20 10:41:02 CEST 2025 ---
+MiB Mem :  15993.3 total,   2915.8 free,   2148.6 used,  11415.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13844.7 avail Mem 
+
+--- Wed Aug 20 10:42:02 CEST 2025 ---
+MiB Mem :  15993.3 total,   2914.5 free,   2146.4 used,  11419.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13846.8 avail Mem 
+
+--- Wed Aug 20 10:43:03 CEST 2025 ---
+MiB Mem :  15993.3 total,   2912.6 free,   2145.4 used,  11422.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13847.8 avail Mem 
+
+--- Wed Aug 20 10:44:03 CEST 2025 ---
+MiB Mem :  15993.3 total,   2907.2 free,   2148.3 used,  11424.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13845.0 avail Mem 
+
+--- Wed Aug 20 10:45:03 CEST 2025 ---
+MiB Mem :  15993.3 total,   2908.9 free,   2144.5 used,  11426.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13848.8 avail Mem 
+
+--- Wed Aug 20 10:46:03 CEST 2025 ---
+MiB Mem :  15993.3 total,   2896.1 free,   2154.9 used,  11429.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13838.4 avail Mem 
+
+--- Wed Aug 20 10:47:03 CEST 2025 ---
+MiB Mem :  15993.3 total,   2894.9 free,   2154.3 used,  11431.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13839.0 avail Mem 
+
+--- Wed Aug 20 10:48:04 CEST 2025 ---
+MiB Mem :  15993.3 total,   2882.8 free,   2164.5 used,  11432.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13828.8 avail Mem 
+
+--- Wed Aug 20 10:49:04 CEST 2025 ---
+MiB Mem :  15993.3 total,   2881.1 free,   2164.1 used,  11434.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13829.1 avail Mem 
+
+--- Wed Aug 20 10:50:04 CEST 2025 ---
+MiB Mem :  15993.3 total,   2875.3 free,   2167.6 used,  11437.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13825.7 avail Mem 
+
+--- Wed Aug 20 10:51:04 CEST 2025 ---
+MiB Mem :  15993.3 total,   2872.6 free,   2168.2 used,  11439.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13825.0 avail Mem 
+
+--- Wed Aug 20 10:52:05 CEST 2025 ---
+MiB Mem :  15993.3 total,   2871.3 free,   2167.1 used,  11441.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13826.1 avail Mem 
+
+--- Wed Aug 20 10:53:05 CEST 2025 ---
+MiB Mem :  15993.3 total,   2870.3 free,   2165.9 used,  11443.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13827.4 avail Mem 
+
+--- Wed Aug 20 10:54:05 CEST 2025 ---
+MiB Mem :  15993.3 total,   2864.9 free,   2169.4 used,  11445.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13823.9 avail Mem 
+
+--- Wed Aug 20 10:55:05 CEST 2025 ---
+MiB Mem :  15993.3 total,   2856.1 free,   2176.4 used,  11447.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13816.9 avail Mem 
+
+--- Wed Aug 20 10:56:05 CEST 2025 ---
+MiB Mem :  15993.3 total,   2862.0 free,   2168.1 used,  11449.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13825.1 avail Mem 
+
+--- Wed Aug 20 10:57:06 CEST 2025 ---
+MiB Mem :  15993.3 total,   2857.1 free,   2171.1 used,  11451.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13822.2 avail Mem 
+
+--- Wed Aug 20 10:58:06 CEST 2025 ---
+MiB Mem :  15993.3 total,   2841.0 free,   2185.2 used,  11453.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13808.1 avail Mem 
+
+--- Wed Aug 20 10:59:06 CEST 2025 ---
+MiB Mem :  15993.3 total,   2835.8 free,   2188.2 used,  11456.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13805.1 avail Mem 
+
+--- Wed Aug 20 11:00:06 CEST 2025 ---
+MiB Mem :  15993.3 total,   2842.2 free,   2179.9 used,  11458.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13813.4 avail Mem 
+
+--- Wed Aug 20 11:01:06 CEST 2025 ---
+MiB Mem :  15993.3 total,   2836.6 free,   2183.3 used,  11460.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13810.0 avail Mem 
+
+--- Wed Aug 20 11:02:07 CEST 2025 ---
+MiB Mem :  15993.3 total,   2833.6 free,   2183.8 used,  11462.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13809.4 avail Mem 
+
+--- Wed Aug 20 11:03:07 CEST 2025 ---
+MiB Mem :  15993.3 total,   2833.4 free,   2181.9 used,  11464.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13811.3 avail Mem 
+
+--- Wed Aug 20 11:04:07 CEST 2025 ---
+MiB Mem :  15993.3 total,   2831.1 free,   2181.9 used,  11467.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13811.4 avail Mem 
+
+--- Wed Aug 20 11:05:07 CEST 2025 ---
+MiB Mem :  15993.3 total,   2821.8 free,   2189.1 used,  11469.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13804.2 avail Mem 
+
+--- Wed Aug 20 11:06:08 CEST 2025 ---
+MiB Mem :  15993.3 total,   2806.9 free,   2194.1 used,  11479.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13799.2 avail Mem 
+
+--- Wed Aug 20 11:07:08 CEST 2025 ---
+MiB Mem :  15993.3 total,   2800.7 free,   2197.8 used,  11481.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13795.5 avail Mem 
+
+--- Wed Aug 20 11:08:08 CEST 2025 ---
+MiB Mem :  15993.3 total,   2803.2 free,   2193.5 used,  11483.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13799.7 avail Mem 
+
+--- Wed Aug 20 11:09:08 CEST 2025 ---
+MiB Mem :  15993.3 total,   2797.4 free,   2197.4 used,  11485.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13795.8 avail Mem 
+
+--- Wed Aug 20 11:10:08 CEST 2025 ---
+MiB Mem :  15993.3 total,   2789.5 free,   2203.4 used,  11487.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13789.9 avail Mem 
+
+--- Wed Aug 20 11:11:09 CEST 2025 ---
+MiB Mem :  15993.3 total,   2789.0 free,   2202.2 used,  11488.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13791.1 avail Mem 
+
+--- Wed Aug 20 11:12:09 CEST 2025 ---
+MiB Mem :  15993.3 total,   2790.0 free,   2199.4 used,  11490.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13793.9 avail Mem 
+
+--- Wed Aug 20 11:13:09 CEST 2025 ---
+MiB Mem :  15993.3 total,   2785.1 free,   2201.2 used,  11493.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13792.1 avail Mem 
+
+--- Wed Aug 20 11:14:09 CEST 2025 ---
+MiB Mem :  15993.3 total,   2783.1 free,   2201.5 used,  11495.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13791.7 avail Mem 
+
+--- Wed Aug 20 11:15:10 CEST 2025 ---
+MiB Mem :  15993.3 total,   2781.4 free,   2201.4 used,  11497.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13791.8 avail Mem 
+
+--- Wed Aug 20 11:16:10 CEST 2025 ---
+MiB Mem :  15993.3 total,   2772.1 free,   2208.8 used,  11499.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13784.5 avail Mem 
+
+--- Wed Aug 20 11:17:10 CEST 2025 ---
+MiB Mem :  15993.3 total,   2772.1 free,   2206.8 used,  11501.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13786.4 avail Mem 
+
+--- Wed Aug 20 11:18:10 CEST 2025 ---
+MiB Mem :  15993.3 total,   2770.2 free,   2207.2 used,  11502.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13786.1 avail Mem 
+
+--- Wed Aug 20 11:19:10 CEST 2025 ---
+MiB Mem :  15993.3 total,   2762.6 free,   2212.7 used,  11504.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13780.6 avail Mem 
+
+--- Wed Aug 20 11:20:11 CEST 2025 ---
+MiB Mem :  15993.3 total,   2757.9 free,   2215.4 used,  11506.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13777.9 avail Mem 
+
+--- Wed Aug 20 11:21:11 CEST 2025 ---
+MiB Mem :  15993.3 total,   2757.4 free,   2214.1 used,  11508.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13779.2 avail Mem 
+
+--- Wed Aug 20 11:22:11 CEST 2025 ---
+MiB Mem :  15993.3 total,   2753.2 free,   2216.3 used,  11510.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13776.9 avail Mem 
+
+--- Wed Aug 20 11:23:11 CEST 2025 ---
+MiB Mem :  15993.3 total,   2753.2 free,   2214.6 used,  11512.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13778.7 avail Mem 
+
+--- Wed Aug 20 11:24:11 CEST 2025 ---
+MiB Mem :  15993.3 total,   2752.0 free,   2213.8 used,  11514.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13779.4 avail Mem 
+
+--- Wed Aug 20 11:25:12 CEST 2025 ---
+MiB Mem :  15993.3 total,   2752.6 free,   2210.8 used,  11516.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13782.4 avail Mem 
+
+--- Wed Aug 20 11:26:12 CEST 2025 ---
+MiB Mem :  15993.3 total,   2743.7 free,   2217.9 used,  11518.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13775.3 avail Mem 
+
+--- Wed Aug 20 11:27:12 CEST 2025 ---
+MiB Mem :  15993.3 total,   2734.2 free,   2225.5 used,  11520.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13767.8 avail Mem 
+
+--- Wed Aug 20 11:28:12 CEST 2025 ---
+MiB Mem :  15993.3 total,   2728.3 free,   2229.4 used,  11522.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13763.9 avail Mem 
+
+--- Wed Aug 20 11:29:13 CEST 2025 ---
+MiB Mem :  15993.3 total,   2721.9 free,   2233.6 used,  11524.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13759.7 avail Mem 
+
+--- Wed Aug 20 11:30:13 CEST 2025 ---
+MiB Mem :  15993.3 total,   2721.6 free,   2231.8 used,  11526.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13761.4 avail Mem 
+
+--- Wed Aug 20 11:31:13 CEST 2025 ---
+MiB Mem :  15993.3 total,   2718.4 free,   2231.0 used,  11530.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13762.3 avail Mem 
+
+--- Wed Aug 20 11:32:13 CEST 2025 ---
+MiB Mem :  15993.3 total,   2714.4 free,   2232.8 used,  11532.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13760.4 avail Mem 
+
+--- Wed Aug 20 11:33:13 CEST 2025 ---
+MiB Mem :  15993.3 total,   2711.5 free,   2233.5 used,  11535.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13759.8 avail Mem 
+
+--- Wed Aug 20 11:34:14 CEST 2025 ---
+MiB Mem :  15993.3 total,   2706.6 free,   2236.1 used,  11537.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13757.2 avail Mem 
+
+--- Wed Aug 20 11:35:14 CEST 2025 ---
+MiB Mem :  15993.3 total,   2689.7 free,   2250.5 used,  11540.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13742.8 avail Mem 
+
+--- Wed Aug 20 11:36:14 CEST 2025 ---
+MiB Mem :  15993.3 total,   2677.3 free,   2260.7 used,  11542.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13732.6 avail Mem 
+
+--- Wed Aug 20 11:37:14 CEST 2025 ---
+MiB Mem :  15993.3 total,   2672.7 free,   2262.9 used,  11544.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13730.3 avail Mem 
+
+--- Wed Aug 20 11:38:15 CEST 2025 ---
+MiB Mem :  15993.3 total,   2670.2 free,   2263.3 used,  11546.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13730.0 avail Mem 
+
+--- Wed Aug 20 11:39:15 CEST 2025 ---
+MiB Mem :  15993.3 total,   2665.8 free,   2266.1 used,  11548.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13727.2 avail Mem 
+
+--- Wed Aug 20 11:40:15 CEST 2025 ---
+MiB Mem :  15993.3 total,   2665.0 free,   2264.6 used,  11550.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13728.7 avail Mem 
+
+--- Wed Aug 20 11:41:15 CEST 2025 ---
+MiB Mem :  15993.3 total,   1551.9 free,   3370.4 used,  11557.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12622.9 avail Mem 
+
+--- Wed Aug 20 11:42:15 CEST 2025 ---
+MiB Mem :  15993.3 total,    164.7 free,   6419.0 used,   9752.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9574.3 avail Mem 
+
+--- Wed Aug 20 11:43:16 CEST 2025 ---
+MiB Mem :  15993.3 total,   1104.8 free,   5476.3 used,   9754.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10517.0 avail Mem 
+
+--- Wed Aug 20 11:44:16 CEST 2025 ---
+MiB Mem :  15993.3 total,   1169.2 free,   5409.6 used,   9757.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10583.6 avail Mem 
+
+--- Wed Aug 20 11:45:16 CEST 2025 ---
+MiB Mem :  15993.3 total,   1155.0 free,   5421.3 used,   9759.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10572.0 avail Mem 
+
+--- Wed Aug 20 11:46:16 CEST 2025 ---
+MiB Mem :  15993.3 total,   1140.6 free,   5433.2 used,   9762.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10560.1 avail Mem 
+
+--- Wed Aug 20 11:47:16 CEST 2025 ---
+MiB Mem :  15993.3 total,   1135.9 free,   5435.8 used,   9764.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10557.5 avail Mem 
+
+--- Wed Aug 20 11:48:17 CEST 2025 ---
+MiB Mem :  15993.3 total,   1132.6 free,   5436.9 used,   9766.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10556.4 avail Mem 
+
+--- Wed Aug 20 11:49:17 CEST 2025 ---
+MiB Mem :  15993.3 total,   1124.3 free,   5442.7 used,   9769.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10550.6 avail Mem 
+
+--- Wed Aug 20 11:50:17 CEST 2025 ---
+MiB Mem :  15993.3 total,   1113.6 free,   5450.6 used,   9771.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10542.6 avail Mem 
+
+--- Wed Aug 20 11:51:17 CEST 2025 ---
+MiB Mem :  15993.3 total,   1117.5 free,   5444.4 used,   9774.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10548.9 avail Mem 
+
+--- Wed Aug 20 11:52:18 CEST 2025 ---
+MiB Mem :  15993.3 total,   1098.5 free,   5460.9 used,   9776.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10532.4 avail Mem 
+
+--- Wed Aug 20 11:53:18 CEST 2025 ---
+MiB Mem :  15993.3 total,   1082.5 free,   5474.2 used,   9779.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10519.1 avail Mem 
+
+--- Wed Aug 20 11:54:18 CEST 2025 ---
+MiB Mem :  15993.3 total,   1079.6 free,   5474.9 used,   9781.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10518.4 avail Mem 
+
+--- Wed Aug 20 11:55:18 CEST 2025 ---
+MiB Mem :  15993.3 total,   1064.3 free,   5487.8 used,   9783.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10505.5 avail Mem 
+
+--- Wed Aug 20 11:56:18 CEST 2025 ---
+MiB Mem :  15993.3 total,   1063.2 free,   5486.3 used,   9786.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10507.0 avail Mem 
+
+--- Wed Aug 20 11:57:19 CEST 2025 ---
+MiB Mem :  15993.3 total,   1054.2 free,   5492.6 used,   9789.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10500.7 avail Mem 
+
+--- Wed Aug 20 11:58:19 CEST 2025 ---
+MiB Mem :  15993.3 total,   1052.4 free,   5491.8 used,   9791.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10501.4 avail Mem 
+
+--- Wed Aug 20 11:59:19 CEST 2025 ---
+MiB Mem :  15993.3 total,   1045.6 free,   5496.5 used,   9793.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10496.8 avail Mem 
+
+--- Wed Aug 20 12:00:19 CEST 2025 ---
+MiB Mem :  15993.3 total,   1056.3 free,   5483.1 used,   9796.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10510.1 avail Mem 
+
+--- Wed Aug 20 12:01:19 CEST 2025 ---
+MiB Mem :  15993.3 total,   1034.4 free,   5502.2 used,   9799.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10491.1 avail Mem 
+
+--- Wed Aug 20 12:02:20 CEST 2025 ---
+MiB Mem :  15993.3 total,   1034.7 free,   5499.0 used,   9802.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10494.3 avail Mem 
+
+--- Wed Aug 20 12:03:20 CEST 2025 ---
+MiB Mem :  15993.3 total,   1002.0 free,   5529.2 used,   9804.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10464.0 avail Mem 
+
+--- Wed Aug 20 12:04:20 CEST 2025 ---
+MiB Mem :  15993.3 total,    995.1 free,   5533.7 used,   9807.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10459.6 avail Mem 
+
+--- Wed Aug 20 12:05:20 CEST 2025 ---
+MiB Mem :  15993.3 total,    999.6 free,   5526.3 used,   9810.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10467.0 avail Mem 
+
+--- Wed Aug 20 12:06:21 CEST 2025 ---
+MiB Mem :  15993.3 total,    989.0 free,   5534.4 used,   9812.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10458.8 avail Mem 
+
+--- Wed Aug 20 12:07:21 CEST 2025 ---
+MiB Mem :  15993.3 total,    971.3 free,   5546.2 used,   9818.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10447.1 avail Mem 
+
+--- Wed Aug 20 12:08:21 CEST 2025 ---
+MiB Mem :  15993.3 total,    984.3 free,   5530.8 used,   9820.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10462.4 avail Mem 
+
+--- Wed Aug 20 12:09:21 CEST 2025 ---
+MiB Mem :  15993.3 total,    980.3 free,   5532.1 used,   9823.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10461.1 avail Mem 
+
+--- Wed Aug 20 12:10:21 CEST 2025 ---
+MiB Mem :  15993.3 total,    981.4 free,   5528.5 used,   9826.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10464.8 avail Mem 
+
+--- Wed Aug 20 12:11:22 CEST 2025 ---
+MiB Mem :  15993.3 total,    965.2 free,   5542.5 used,   9828.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10450.8 avail Mem 
+
+--- Wed Aug 20 12:12:22 CEST 2025 ---
+MiB Mem :  15993.3 total,    946.9 free,   5558.4 used,   9830.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10434.9 avail Mem 
+
+--- Wed Aug 20 12:13:22 CEST 2025 ---
+MiB Mem :  15993.3 total,    948.6 free,   5554.2 used,   9833.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10439.1 avail Mem 
+
+--- Wed Aug 20 12:14:22 CEST 2025 ---
+MiB Mem :  15993.3 total,    946.8 free,   5553.1 used,   9836.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10440.2 avail Mem 
+
+--- Wed Aug 20 12:15:23 CEST 2025 ---
+MiB Mem :  15993.3 total,    929.8 free,   5567.5 used,   9838.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10425.8 avail Mem 
+
+--- Wed Aug 20 12:16:23 CEST 2025 ---
+MiB Mem :  15993.3 total,    898.4 free,   5596.4 used,   9841.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10396.9 avail Mem 
+
+--- Wed Aug 20 12:17:23 CEST 2025 ---
+MiB Mem :  15993.3 total,    913.4 free,   5578.9 used,   9843.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10414.4 avail Mem 
+
+--- Wed Aug 20 12:18:23 CEST 2025 ---
+MiB Mem :  15993.3 total,    910.6 free,   5579.4 used,   9846.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10413.9 avail Mem 
+
+--- Wed Aug 20 12:19:23 CEST 2025 ---
+MiB Mem :  15993.3 total,    899.3 free,   5587.9 used,   9848.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10405.4 avail Mem 
+
+--- Wed Aug 20 12:20:24 CEST 2025 ---
+MiB Mem :  15993.3 total,    889.0 free,   5595.2 used,   9851.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10398.0 avail Mem 
+
+--- Wed Aug 20 12:21:24 CEST 2025 ---
+MiB Mem :  15993.3 total,    880.9 free,   5599.9 used,   9855.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10393.3 avail Mem 
+
+--- Wed Aug 20 12:22:24 CEST 2025 ---
+MiB Mem :  15993.3 total,    871.4 free,   5606.0 used,   9858.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10387.3 avail Mem 
+
+--- Wed Aug 20 12:23:24 CEST 2025 ---
+MiB Mem :  15993.3 total,    875.4 free,   5599.8 used,   9860.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10393.4 avail Mem 
+
+--- Wed Aug 20 12:24:24 CEST 2025 ---
+MiB Mem :  15993.3 total,    871.7 free,   5600.9 used,   9863.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10392.4 avail Mem 
+
+--- Wed Aug 20 12:25:25 CEST 2025 ---
+MiB Mem :  15993.3 total,    876.6 free,   5593.4 used,   9865.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10399.9 avail Mem 
+
+--- Wed Aug 20 12:26:25 CEST 2025 ---
+MiB Mem :  15993.3 total,    848.5 free,   5618.9 used,   9868.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10374.4 avail Mem 
+
+--- Wed Aug 20 12:27:25 CEST 2025 ---
+MiB Mem :  15993.3 total,    828.0 free,   5636.8 used,   9871.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10356.5 avail Mem 
+
+--- Wed Aug 20 12:28:25 CEST 2025 ---
+MiB Mem :  15993.3 total,    854.3 free,   5608.0 used,   9873.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10385.3 avail Mem 
+
+--- Wed Aug 20 12:29:26 CEST 2025 ---
+MiB Mem :  15993.3 total,    832.3 free,   5627.1 used,   9876.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10366.1 avail Mem 
+
+--- Wed Aug 20 12:30:26 CEST 2025 ---
+MiB Mem :  15993.3 total,    809.2 free,   5647.8 used,   9879.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10345.5 avail Mem 
+
+--- Wed Aug 20 12:31:26 CEST 2025 ---
+MiB Mem :  15993.3 total,    829.5 free,   5625.0 used,   9881.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10368.3 avail Mem 
+
+--- Wed Aug 20 12:32:26 CEST 2025 ---
+MiB Mem :  15993.3 total,    807.2 free,   5644.8 used,   9884.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10348.5 avail Mem 
+
+--- Wed Aug 20 12:33:26 CEST 2025 ---
+MiB Mem :  15993.3 total,    804.1 free,   5645.7 used,   9886.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10347.6 avail Mem 
+
+--- Wed Aug 20 12:34:27 CEST 2025 ---
+MiB Mem :  15993.3 total,    810.3 free,   5636.8 used,   9888.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10356.4 avail Mem 
+
+--- Wed Aug 20 12:35:27 CEST 2025 ---
+MiB Mem :  15993.3 total,    810.5 free,   5634.3 used,   9891.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10359.0 avail Mem 
+
+--- Wed Aug 20 12:36:27 CEST 2025 ---
+MiB Mem :  15993.3 total,    801.7 free,   5640.9 used,   9893.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10352.4 avail Mem 
+
+--- Wed Aug 20 12:37:27 CEST 2025 ---
+MiB Mem :  15993.3 total,    810.6 free,   5629.4 used,   9895.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10363.9 avail Mem 
+
+--- Wed Aug 20 12:38:28 CEST 2025 ---
+MiB Mem :  15993.3 total,    793.3 free,   5644.2 used,   9898.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10349.1 avail Mem 
+
+--- Wed Aug 20 12:39:28 CEST 2025 ---
+MiB Mem :  15993.3 total,    784.2 free,   5651.0 used,   9900.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10342.2 avail Mem 
+
+--- Wed Aug 20 12:40:28 CEST 2025 ---
+MiB Mem :  15993.3 total,    772.0 free,   5661.1 used,   9902.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10332.2 avail Mem 
+
+--- Wed Aug 20 12:41:28 CEST 2025 ---
+MiB Mem :  15993.3 total,    778.7 free,   5652.1 used,   9905.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10341.2 avail Mem 
+
+--- Wed Aug 20 12:42:28 CEST 2025 ---
+MiB Mem :  15993.3 total,    771.9 free,   5654.0 used,   9910.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10339.3 avail Mem 
+
+--- Wed Aug 20 12:43:29 CEST 2025 ---
+MiB Mem :  15993.3 total,    764.7 free,   5658.7 used,   9912.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10334.5 avail Mem 
+
+--- Wed Aug 20 12:44:29 CEST 2025 ---
+MiB Mem :  15993.3 total,    762.9 free,   5658.0 used,   9915.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10335.2 avail Mem 
+
+--- Wed Aug 20 12:45:29 CEST 2025 ---
+MiB Mem :  15993.3 total,    742.5 free,   5668.3 used,   9925.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10324.9 avail Mem 
+
+--- Wed Aug 20 12:46:29 CEST 2025 ---
+MiB Mem :  15993.3 total,    744.9 free,   5663.4 used,   9927.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10329.8 avail Mem 
+
+--- Wed Aug 20 12:47:29 CEST 2025 ---
+MiB Mem :  15993.3 total,    744.1 free,   5661.3 used,   9930.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10332.0 avail Mem 
+
+--- Wed Aug 20 12:48:30 CEST 2025 ---
+MiB Mem :  15993.3 total,    746.1 free,   5657.1 used,   9932.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10336.2 avail Mem 
+
+--- Wed Aug 20 12:49:30 CEST 2025 ---
+MiB Mem :  15993.3 total,    719.8 free,   5680.8 used,   9935.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10312.5 avail Mem 
+
+--- Wed Aug 20 12:50:30 CEST 2025 ---
+MiB Mem :  15993.3 total,    719.8 free,   5678.1 used,   9938.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10315.2 avail Mem 
+
+--- Wed Aug 20 12:51:30 CEST 2025 ---
+MiB Mem :  15993.3 total,    728.7 free,   5665.8 used,   9941.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10327.5 avail Mem 
+
+--- Wed Aug 20 12:52:31 CEST 2025 ---
+MiB Mem :  15993.3 total,    722.1 free,   5669.7 used,   9944.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10323.6 avail Mem 
+
+--- Wed Aug 20 12:53:31 CEST 2025 ---
+MiB Mem :  15993.3 total,    721.2 free,   5668.3 used,   9946.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10324.9 avail Mem 
+
+--- Wed Aug 20 12:54:31 CEST 2025 ---
+MiB Mem :  15993.3 total,    707.0 free,   5679.6 used,   9949.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10313.7 avail Mem 
+
+--- Wed Aug 20 12:55:31 CEST 2025 ---
+MiB Mem :  15993.3 total,    693.1 free,   5691.0 used,   9951.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10302.2 avail Mem 
+
+--- Wed Aug 20 12:56:31 CEST 2025 ---
+MiB Mem :  15993.3 total,    681.3 free,   5700.4 used,   9954.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10292.9 avail Mem 
+
+--- Wed Aug 20 12:57:32 CEST 2025 ---
+MiB Mem :  15993.3 total,    682.6 free,   5696.9 used,   9956.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10296.3 avail Mem 
+
+--- Wed Aug 20 12:58:32 CEST 2025 ---
+MiB Mem :  15993.3 total,    655.1 free,   5722.0 used,   9958.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10271.2 avail Mem 
+
+--- Wed Aug 20 12:59:32 CEST 2025 ---
+MiB Mem :  15993.3 total,    646.9 free,   5727.6 used,   9961.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10265.6 avail Mem 
+
+--- Wed Aug 20 13:00:32 CEST 2025 ---
+MiB Mem :  15993.3 total,    638.0 free,   5733.9 used,   9964.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10259.4 avail Mem 
+
+--- Wed Aug 20 13:01:33 CEST 2025 ---
+MiB Mem :  15993.3 total,    673.0 free,   5694.2 used,   9968.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10299.1 avail Mem 
+
+--- Wed Aug 20 13:02:33 CEST 2025 ---
+MiB Mem :  15993.3 total,    651.3 free,   5712.9 used,   9971.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10280.4 avail Mem 
+
+--- Wed Aug 20 13:03:33 CEST 2025 ---
+MiB Mem :  15993.3 total,    640.1 free,   5721.5 used,   9974.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10271.8 avail Mem 
+
+--- Wed Aug 20 13:04:33 CEST 2025 ---
+MiB Mem :  15993.3 total,    639.2 free,   5719.6 used,   9977.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10273.6 avail Mem 
+
+--- Wed Aug 20 13:05:33 CEST 2025 ---
+MiB Mem :  15993.3 total,    653.9 free,   5702.4 used,   9979.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10290.9 avail Mem 
+
+--- Wed Aug 20 13:06:34 CEST 2025 ---
+MiB Mem :  15993.3 total,    658.0 free,   5695.8 used,   9982.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10297.5 avail Mem 
+
+--- Wed Aug 20 13:07:34 CEST 2025 ---
+MiB Mem :  15993.3 total,    614.2 free,   5736.9 used,   9984.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10256.3 avail Mem 
+
+--- Wed Aug 20 13:08:34 CEST 2025 ---
+MiB Mem :  15993.3 total,    633.2 free,   5715.7 used,   9987.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10277.6 avail Mem 
+
+--- Wed Aug 20 13:09:34 CEST 2025 ---
+MiB Mem :  15993.3 total,    626.5 free,   5717.7 used,   9991.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10275.6 avail Mem 
+
