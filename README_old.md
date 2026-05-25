@@ -11,12 +11,10 @@
 	a. Git Bash for everything git-related (https://gitforwindows.org/)
 	b. Docker Engine and Compose can be installed as a single package: https://www.docker.com/products/docker-desktop
 	c. WSL2 for anything Docker-related (https://docs.microsoft.com/en-us/windows/wsl/install) (Remember to use WSL2-based engine in Docker)
-    d. Set the following option in Git bash: "git config --global core.protectNTFS false"
-
-
+	
 **1. Clone SINTEF Co-Dev repository with MPC submodules**
 
-    git clone --recurse-submodules -j8 https://github.com/mariuseb/bacsaas.git
+    git clone --recurse-submodules -j8 ssh://git@git.code.sintef.no/sdfs/sintef-codev.git
     
     NOTE: For future pull, set the following flag to automatically update submodules
 
@@ -29,11 +27,11 @@
 **2. Start up Docker compose orchastration (for local deployment)**
 
 
-    In folder bacsaas/docker/ run:
+    In folder <path>/sintef-codev/docker/ run:
     export uid=$(id -u) gid=$(id -g) 
     docker-compose build
 
-    In folder bacsaas/docker/ run (terminal 1) (-d implies detached mode):
+    In folder <path>/sintef-codev/docker/ run (terminal 1) (-d implies detached mode):
     docker-compose up -d
 
     To list and verify that all containers are running
@@ -51,6 +49,30 @@
     **DANGEROUS: Remove all resources**
     docker system prune -a 
 
+**3. BACSSaaS ROME Server deployment (remote deployment)**
+
+*NOTE: The user need to be on VPN or local SINTEF network to ssh into server*
+
+    a. BACSSaaS has been deployed on SINTEF Digitals ROME server:
+
+        IP: 129.241.64.67 
+        USER: bacssaas
+        PASSWORD: secret
+
+    b. To conntect to Jupyter Notebook via some free local <PORT>:
+
+        ssh bacssaas@129.241.64.67 -NL <PORT>:127.0.0.1:8888
+
+    c. To access jupyter notebook, use the following in your browser:
+
+        localhost:<PORT>
+
+    d. Use the following token for login purposes, if prompter:
+
+        docker log <CONTAINER ID>
+
+        <ask phillip.maree@sintef.no for token>
+
 **4. Visual Studio Code IDE (for local deployment)**
 
 ***Windows***
@@ -66,8 +88,8 @@
         b. Select "bacssaas/mosiop:latest" from the drop-down menu.
     4. Create virtual python environment to prevent future package conflicts
         a. Open New Terminal 
-        b. python3.10 -m venv .venv --system-site-packages			
-        c. F1, "Python: Select Interpreter". Select the one in ./venv: Python 3.10.x 64-bit (./.venv/bin/python)
+        b. python3.9 -m venv .venv --system-site-packages			
+        c. F1, "Python: Select Interpreter". Select the one in ./venv: Python 3.9.9 64-bit (./.venv/bin/python)
     5. For GUI-forwarding, this is a temporary solution:
         a. F1, select command "Remote-Containers: Add Attached Container Configuration File..."
         b. Select container "bacssaas/mosiop:latest".
@@ -179,6 +201,58 @@
                 }
             ]
         }
+    7. To test that the Python environment is working
+        a. Open mosiop->lib->test->main.py
+        b. Run->Run Without Debugging
+        c. CSTR example should solve and display figures
+
+**5. Visual Studio Code IDE (with remote deployment)**
+
+*NOTE: The user need to be on VPN or local SINTEF network to ssh into server*
+
+***Linux***
+
+    1. Install Visual Studio Code (https://code.visualstudio.com/)
+    2. Install the following extenisons in Visual Code Studio:
+        a. Remote - SSH
+        b. Remnote - SSH: Editing Configuation Files
+        c. Docker    
+        d. Remote - Containers
+        e. Remote Development
+        f. Python
+    3. Create a new Connect to Host configuration. The following should be added to your /homw/<user>/.ssh/config file: 
+        
+        Host BACSSaaS
+            HostName 129.241.64.67
+            User bacssaas
+    4. Coneect to host BACSSaaS
+    5. To verify connection and running BACSSaaS containers:
+        a. Open terminal window Terminal->New Terminal
+        b. Type
+            docker ps
+
+***Windows***
+
+    1. Install Visual Studio Code (https://code.visualstudio.com/) 
+    2. Install the following Visual Studio Code extensions:
+        a. Remote - SSH
+        b. Remnote - SSH: Editing Configuation Files
+        c. Docker    
+        d. Remote - Containers
+        e. Remote Development
+        f. Python
+    3. Connect to remote BACSSaaS host on ROME server:
+        a. Open a remote window (greeen icon bottom-left)
+        b. Open SSH Configuration File (i.e., C:\Users\<user>\.ssh\config) and update with:
+            Host BACSSaaS
+                HostName 129.241.64.67
+                User bacssaas
+        c. Save config file (ctrl+s)
+        d. Open a remote window -> Connect Current Window to Host -> BCASSaaS
+        e. The platform for remote host "BACSSaaS" is linux
+        f. Open Visual Studio Code workspace <bacssass.code-workspace>
+        
+
 
 
         
