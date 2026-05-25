@@ -1,5 +1,6 @@
 #FROM buildopt:core
-FROM mariusbagle/buildopt:core
+#FROM mariusbagle/buildopt:core
+FROM buildopt:core_debug
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -114,10 +115,10 @@ RUN sudo pip install --no-cache-dir -r ./mosiop/requirements.txt
 #    && cd scs-python \
 #    && sudo python setup.py install --scs --openmp
 
-RUN sudo useradd -d /home/${USER_NAME} -m ${USER_NAME} && \
-    sudo chown -R ${USER_NAME} /home/${USER_NAME} && \
-    sudo adduser ${USER_NAME} sudo # &&  \
-#     #echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+#RUN sudo useradd -d /home/${USER_NAME} -m ${USER_NAME} && \
+#    sudo chown -R ${USER_NAME} /home/${USER_NAME} # && \
+    #sudo adduser ${USER_NAME} sudo &&  \
+    #echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 #RUN groupadd --gid $USER_GID $USER_NAME \
 #    RUN useradd --uid $USER_UID --gid $USER_GID -m $USER_NAME \

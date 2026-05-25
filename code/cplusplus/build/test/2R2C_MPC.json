@@ -1,0 +1,51 @@
+{
+    "model": {
+        "ode": {
+            "Te": "(Ti - Te)/(Rie*Ce) + (Ta - Te)/(Rea*Ce)",
+            "Ti": "(Te - Ti)/(Rie*Ci) + phi_h*(1/Ci) + Ai*(phi_s/Ci)"
+        },
+        "p": [
+            "Ai",
+            "Ce",
+            "Ci",
+            "Rea",
+            "Rie"
+        ],
+        "u": [
+            "Ta", 
+            "phi_h",
+            "phi_s"
+        ],
+        "x": [
+            "Te",
+            "Ti"
+        ]
+    },
+    "objective": "phi_h@phi_h",
+    "bounds": {
+        "u": {
+            "lb": [0],
+            "ub": [3000]
+        }
+    },
+    "N": 24,
+    "dt": 900,
+    "method": "multiple_shooting",
+    "integrator": 
+        {
+        "name": "RK4",
+        "n": 1,
+        "tf": 900
+        }
+    ,
+    "opt": {
+        "solver": "ipopt",
+        "verbose": false,
+        "ipopt.linear_solver": "ma57",
+        "ipopt.ma57_pre_alloc": 3,
+        "ipopt.max_iter": 100,
+        "ipopt.tol": 1E-4,
+        "ipopt.hessian_approximation": "limited-memory"
+    },
+    "codegen": false
+}

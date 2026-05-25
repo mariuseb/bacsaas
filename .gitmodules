@@ -10,7 +10,7 @@
 [submodule "code/python/ocp"]
 	path = code/python/ocp
 	url = https://github.com/mariuseb/ocp.git
-	branch = mhe_separation_work
+	branch = sysid_revision
 [submodule "docker/project1-boptest"]
 	path = docker/project1-boptest
 	url = https://github.com/mariuseb/project1-boptest.git

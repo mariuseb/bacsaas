@@ -1,0 +1,19 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/marius/cplusplus/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_34455/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_34455.dir/build.make CMakeFiles/cmTC_34455.dir/build
+gmake[1]: Entering directory '/home/marius/cplusplus/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34455.dir/CheckFunctionExists.c.o
+/usr/bin/clang-11   -DCHECK_FUNCTION_EXISTS=sgemm_ -MD -MT CMakeFiles/cmTC_34455.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_34455.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_34455.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34455
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34455.dir/link.txt --verbose=1
+/usr/bin/clang-11  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_34455.dir/CheckFunctionExists.c.o -o cmTC_34455 
+/usr/bin/ld: CMakeFiles/cmTC_34455.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x17): undefined reference to `sgemm_'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+gmake[1]: *** [CMakeFiles/cmTC_34455.dir/build.make:100: cmTC_34455] Error 1
+gmake[1]: Leaving directory '/home/marius/cplusplus/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_34455/fast] Error 2
+
+
+

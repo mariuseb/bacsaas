@@ -1,0 +1,1 @@
+/usr/bin/clang++-11 -fPIC  -std=c++17 -g -shared -Wl,-soname,libbuildopt.so -o libbuildopt.so CMakeFiles/buildopt.dir/src/integrator_custom.cpp.o CMakeFiles/buildopt.dir/src/dae.cpp.o CMakeFiles/buildopt.dir/src/data.cpp.o CMakeFiles/buildopt.dir/src/ocp.cpp.o   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lcasadi 
