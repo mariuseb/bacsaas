@@ -126,10 +126,6 @@
             }
             ]
         }
-    9. To test that the Python environment is working
-        a. Open mosiop->lib->test->main.py
-        b. Run->Run Without Debugging
-        c. CSTR example should solve and display figures
 
 ***Linux***
 
