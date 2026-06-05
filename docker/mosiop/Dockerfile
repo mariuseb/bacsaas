@@ -1,6 +1,6 @@
 #FROM buildopt:core
-#FROM mariusbagle/buildopt:core
-FROM buildopt:core_debug
+FROM mariusbagle/buildopt:core
+#FROM buildopt:core_debug
 
 ENV DEBIAN_FRONTEND=noninteractive
 
