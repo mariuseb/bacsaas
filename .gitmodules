@@ -4,13 +4,10 @@
 [submodule "code/cplusplus/ocp_cpp"]
 	path = code/cplusplus/ocp_cpp
 	url = https://github.com/mariuseb/ocp_cpp.git
-[submodule "docker/boptest"]
-	path = docker/boptest
-	url = https://github.com/mariuseb/project1-boptest.git
 [submodule "code/python/ocp"]
 	path = code/python/ocp
 	url = https://github.com/mariuseb/ocp.git
-	branch = sysid_revision
+	branch = latest
 [submodule "docker/project1-boptest"]
 	path = docker/project1-boptest
 	url = https://github.com/mariuseb/project1-boptest.git
