@@ -6,7 +6,7 @@ include:
 services:
   bacssaas_mosiop:
     container_name: bacssaas_mosiop
-    image: bacssaas/mosiop:latest
+    image: mariusbagle/bacssaas_mosiop:latest
     build:
       context: ./mosiop
       args:
