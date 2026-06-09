@@ -21,14 +21,14 @@
         "setupCommands": [
             {
                 "description": "Enable pretty-printing for gdb",
-                "text": "-enable-pretty-printing",
+                "text": "-epythonnable-pretty-printing",
                 "ignoreFailures": true
             }
         ]
     },
     {
         "name": "Python: Current File",
-        "type": "python",
+        "type": "debugpy",
         "request": "launch",
         "program": "${file}",
         "justMyCode": false,
@@ -39,4 +39,4 @@
         }
     },
   ]
-}
+}>
