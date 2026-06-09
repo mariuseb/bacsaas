@@ -19,12 +19,13 @@ services:
             tag: controller
     volumes:
        - /tmp/.X11-unix:/tmp/.X11-unix
-       - $PWD/../code:/home/$USER:rw
+       - $PWD/../code:/app:rw
     environment:
       - DISPLAY=$DISPLAY 
       - PUID=${PUID}
       - PGID=${PGID}
       - TZ=${TZ}
+      - PYTHONPATH=${PYTHONPATH}:/app/python
     hostname : bacssaas_moisop
     privileged: true
     restart: unless-stopped
