@@ -138,7 +138,7 @@ RUN sudo apt-get -y install htop
 RUN sudo pip install --no-cache-dir cvxpy
 RUN sudo pip uninstall -y opencv-python
 #USER $USER_NAME
-ENV USER=${USER_NAME}
+#ENV USER=${USER_NAME}
 #ENV HOME /home/$USER_NAME
 #ARG workdir=/home/$USER_NAME
 ARG workdir=/app
@@ -160,7 +160,7 @@ ENV PATH="/opt/venv/bin:$PATH"
 #ENV PYTHONPATH="${PYTHONPATH}:/usr/local:/home/$USER_NAME/python"
 ENV PYTHONPATH="${PYTHONPATH}:/usr/local"
 
-#ENV USER=om
+ENV USER=marius
 
 #RUN echo -e '\n \e[1;34mInstallation complete\033[0m \n'
 
