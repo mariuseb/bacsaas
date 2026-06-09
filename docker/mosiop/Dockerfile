@@ -1,5 +1,5 @@
-#FROM buildopt:core
-FROM mariusbagle/buildopt:core
+FROM buildopt:core
+#FROM mariusbagle/buildopt:core
 #FROM buildopt:core_debug
 
 ENV DEBIAN_FRONTEND=noninteractive
@@ -17,7 +17,8 @@ ARG USER_GID=$USER_UID
 #RUN adduser ${USER_NAME} sudo && \
 #     echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
-RUN sudo apt-get update && sudo apt-get install -y --fix-missing \
+#RUN sudo apt-get update && sudo apt-get install -y --fix-missing \
+RUN sudo apt-get update && sudo apt-get install -y \
          python3-pyqt5 \
          curl \
          dvipng \
@@ -25,7 +26,8 @@ RUN sudo apt-get update && sudo apt-get install -y --fix-missing \
          texlive-latex-extra \
          texlive-fonts-recommended \
          cm-super \
-         nvidia-cuda-toolkit
+         nvidia-cuda-toolkit \
+         clang
 
 #RUN 73 | sudo apt-get install keyboard-configuration
 
